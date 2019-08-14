@@ -1,0 +1,506 @@
+﻿DC UID,DC Entity Type,DC TimeZone,DC Exchange Name,DC Default Index,DC Local Time Opens,DC Local Time Closes,Symbol,Security,SEC filings,GICS Sector,GICS Sub Industry,Headquarters Location,Date first added,CIK,Founded
+EQT-6F6641,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MMM,3M Company,reports,Industrials,Industrial Conglomerates,"St. Paul, Minnesota",,66740,1902
+EQT-CD2826,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ABT,Abbott Laboratories,reports,Health Care,Health Care Equipment,"North Chicago, Illinois",31/03/1964,1800,1888
+EQT-261A24,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ABBV,AbbVie Inc.,reports,Health Care,Pharmaceuticals,"North Chicago, Illinois",31/12/2012,1551152,2013 (1888)
+EQT-6C68B4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ABMD,ABIOMED Inc,reports,Health Care,Health Care Equipment,"Danvers, Massachusetts",31/05/2018,815094,1981
+EQT-467534,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ACN,Accenture plc,reports,Information Technology,IT Consulting & Other Services,"Dublin, Ireland",06/07/2011,1467373,1989
+EQT-A2DA55,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ATVI,Activision Blizzard,reports,Communication Services,Interactive Home Entertainment,"Santa Monica, California",31/08/2015,718877,2008
+EQT-A32D7B,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ADBE,Adobe Systems Inc,reports,Information Technology,Application Software,"San Jose, California",05/05/1997,796343,1982
+EQT-D64F76,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AMD,Advanced Micro Devices Inc,reports,Information Technology,Semiconductors,"Sunnyvale, California",20/03/2017,2488,1969
+EQT-5CD6D3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AAP,Advance Auto Parts,reports,Consumer Discretionary,Automotive Retail,"Raleigh, North Carolina",09/07/2015,1158449,1932
+EQT-697C4C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AES,AES Corp,reports,Utilities,Independent Power Producers & Energy Traders,"Arlington, Virginia",02/10/1998,874761,1981
+EQT-2CC441,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AMG,Affiliated Managers Group Inc,reports,Financials,Asset Management & Custody Banks,"West Palm Beach, Florida",01/07/2014,1004434,1993
+EQT-E8A5CA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AFL,AFLAC Inc,reports,Financials,Life & Health Insurance,"Columbus, Georgia",28/05/1999,4977,1955
+EQT-7CBFB0,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,A,Agilent Technologies Inc,reports,Health Care,Health Care Equipment,"Santa Clara, California",05/06/2000,1090872,1999
+EQT-ED5F50,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,APD,Air Products & Chemicals Inc,reports,Materials,Industrial Gases,"Allentown, Pennsylvania",30/04/1985,2969,1940
+EQT-11AB6D,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AKAM,Akamai Technologies Inc,reports,Information Technology,Internet Services & Infrastructure,"Cambridge, Massachusetts",12/07/2007,1086222,1998
+EQT-B7CCC9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ALK,Alaska Air Group Inc,reports,Industrials,Airlines,"Seattle, Washington",13/05/2016,766421,1985
+EQT-15FAD8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ALB,Albemarle Corp,reports,Materials,Specialty Chemicals,"Charlotte, North Carolina",01/07/2016,915913,1994
+EQT-6F84B9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ARE,Alexandria Real Estate Equities,reports,Real Estate,Office REITs,"Pasadena, California",20/03/2017,1035443,1994
+EQT-3677FA,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ALXN,Alexion Pharmaceuticals,reports,Health Care,Biotechnology,"Boston, Massachusetts",25/05/2012,899866,1992
+EQT-6D97A1,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ALGN,Align Technology,reports,Health Care,Health Care Supplies,"San Jose, California",19/06/2017,1097149,1997
+EQT-C91CA6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ALLE,Allegion,reports,Industrials,Building Products,"Dublin, Ireland",02/12/2013,1579241,1908
+EQT-CAC3BB,Company,Central European Standard Time,Euronext,Euronext 100,09:00:00,17:40:00,AGN,"Allergan, Plc",reports,Health Care,Pharmaceuticals,"Dublin, Ireland",12/04/1999,1578845,1983
+EQT-C92039,Company,Central European Standard Time,Frankfurt Stock Exchange,DAX,09:00:00,20:00:00,ADS,Alliance Data Systems,reports,Information Technology,Data Processing & Outsourced Services,"Plano, Texas",23/12/2013,1101215,1996
+EQT-BDF102,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LNT,Alliant Energy Corp,reports,Utilities,Electric Utilities,"Madison, Wisconsin",01/07/2016,352541,1917
+EQT-6109BA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ALL,Allstate Corp,reports,Financials,Property & Casualty Insurance,"Northfield Township, Illinois",13/07/1995,899051,1931
+EQT-2E77A2,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,GOOGL,Alphabet Inc Class A,reports,Communication Services,Interactive Media & Services,"Mountain View, California",03/04/2014,1652044,1998
+EQT-3DDF8E,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,GOOG,Alphabet Inc Class C,reports,Communication Services,Interactive Media & Services,"Mountain View, California",03/04/2006,1652044,1998
+EQT-F6C842,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MO,Altria Group Inc,reports,Consumer Staples,Tobacco,"Richmond, Virginia",,764180,1985
+EQT-A438AE,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AMZN,Amazon.com Inc.,reports,Consumer Discretionary,Internet & Direct Marketing Retail,"Seattle, Washington",18/11/2005,1018724,1994
+EQT-19F797,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,AMCR,Amcor plc,reports,Materials,Paper Packaging,"Warmley, Bristol, United Kingdom",07/06/2019,1748790,
+EQT-CC5370,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AEE,Ameren Corp,reports,Utilities,Multi-Utilities,"St. Louis, Missouri",19/09/1991,1002910,1902
+EQT-29CECE,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AAL,American Airlines Group,reports,Industrials,Airlines,"Fort Worth, Texas",23/03/2015,6201,1934
+EQT-BD9864,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AEP,American Electric Power,reports,Utilities,Electric Utilities,"Columbus, Ohio",,4904,1906
+EQT-982449,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AXP,American Express Co,reports,Financials,Consumer Finance,"New York, New York",30/06/1976,4962,1850
+EQT-D75E78,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AIG,American International Group,reports,Financials,Property & Casualty Insurance,"New York, New York",31/03/1980,5272,1919
+EQT-1AF911,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AMT,American Tower Corp.,reports,Real Estate,Specialized REITs,"Boston, Massachusetts",19/11/2007,1053507,1995
+EQT-4C6C9D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AWK,American Water Works Company Inc,reports,Utilities,Water Utilities,"Voorhees, New Jersey",04/03/2016,1410636,1886
+EQT-28012F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AMP,Ameriprise Financial,reports,Financials,Asset Management & Custody Banks,"Minneapolis, Minnesota",03/10/2005,820027,1894
+EQT-D697F5,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,ABC,AmerisourceBergen Corp,reports,Health Care,Health Care Distributors,"Chesterbrook, Pennsylvania",30/08/2001,1140859,1985
+EQT-BD8CF4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AME,AMETEK Inc.,reports,Industrials,Electrical Components & Equipment,"Berwyn, Pennsylvania",23/09/2013,1037868,1930
+EQT-75566F,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AMGN,Amgen Inc.,reports,Health Care,Biotechnology,"Thousand Oaks, California",02/01/1992,318154,1980
+EQT-809FDC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,APH,Amphenol Corp,reports,Information Technology,Electronic Components,"Wallingford, Connecticut",30/09/2008,820313,1932
+EQT-99E6DA,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ADI,"Analog Devices, Inc.",reports,Information Technology,Semiconductors,"Norwood, Massachusetts",12/10/1999,6281,1965
+EQT-83EDB4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ANSS,ANSYS,reports,Information Technology,Application Software,"Canonsburg, Pennsylvania",19/06/2017,1013462,1969
+EQT-37A857,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ANTM,Anthem,reports,Health Care,Managed Health Care,"Indianapolis, Indiana",25/07/2002,1156039,2014 (1940s)
+EQT-9AD280,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AON,Aon plc,reports,Financials,Insurance Brokers,"London, United Kingdom",23/04/1996,315293,1982 (1919)
+EQT-D126E2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AOS,A.O. Smith Corp,reports,Industrials,Building Products,"Milwaukee, Wisconsin",26/07/2017,91142,1916
+EQT-0CB4D4,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,APA,Apache Corporation,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",28/07/1997,6769,1954
+EQT-D08D22,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AIV,Apartment Investment & Management,reports,Real Estate,Residential REITs,"Denver, Colorado",14/03/2003,922864,1994 (1975)
+EQT-E3FB65,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AAPL,Apple Inc.,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Cupertino, California",30/11/1982,320193,1977
+EQT-9CECD9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,AMAT,Applied Materials Inc.,reports,Information Technology,Semiconductor Equipment,"Santa Clara, California",16/03/1995,6951,1967
+EQT-5C8538,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,APTV,Aptiv Plc,reports,Consumer Discretionary,Auto Parts & Equipment,"Gillingham, Kent, United Kingdom",24/12/2012,1521332,1994
+EQT-49627C,Company,GMT Standard Time,London Stock Exchange,FTSE 100,08:00:00,16:30:00,ADM,Archer-Daniels-Midland Co,reports,Consumer Staples,Agricultural Products,"Chicago, Illinois",29/07/1981,7084,1902
+EQT-08776D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ARNC,Arconic Inc.,reports,Industrials,Aerospace & Defense,"New York, New York",31/03/1964,4281,2016
+EQT-B07563,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ANET,Arista Networks,reports,Information Technology,Communications Equipment,"Santa Clara, California",28/08/2018,1596532,2004
+EQT-F08748,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AJG,Arthur J. Gallagher & Co.,reports,Financials,Insurance Brokers,"Itasca, Illinois",31/05/2016,354190,
+EQT-725B26,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,AIZ,Assurant,reports,Financials,Multi-line Insurance,"New York, New York",10/04/2007,1267238,
+EQT-A642F6,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,ATO,Atmos Energy Corp,reports,Utilities,Gas Utilities,"Dallas, Texas",15/02/2019,731802,1906
+EQT-05A894,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,T,AT&T Inc.,reports,Communication Services,Integrated Telecommunication Services,"Dallas, Texas",30/11/1983,732717,1983
+EQT-E4BAA7,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ADSK,Autodesk Inc.,reports,Information Technology,Application Software,"San Rafael, California",01/12/1989,769397,
+EQT-96A04C,Company,Central European Standard Time,Euronext Amsterdam,CAC MID 60 ,09:00:00,17:40:00,ADP,Automatic Data Processing,reports,Information Technology,Internet Services & Infrastructure,"Roseland, New Jersey",31/03/1981,8670,
+EQT-931EC7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AZO,AutoZone Inc,reports,Consumer Discretionary,Specialty Stores,"Memphis, Tennessee",02/01/1997,866787,
+EQT-FF28A4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AVB,"AvalonBay Communities, Inc.",reports,Real Estate,Residential REITs,"Arlington, Virginia[3]",10/01/2007,915912,
+EQT-7A0560,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AVY,Avery Dennison Corp,reports,Materials,Paper Packaging,"Glendale, California",31/12/1987,8818,
+EQT-51CD97,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BHGE,"Baker Hughes, a GE Company",reports,Energy,Oil & Gas Equipment & Services,"Houston, Texas",,1701605,2017
+EQT-632128,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BLL,Ball Corp,reports,Materials,Metal & Glass Containers,"Broomfield, Colorado",31/10/1984,9389,
+EQT-87AFD3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BAC,Bank of America Corp,reports,Financials,Diversified Banks,"Charlotte, North Carolina",30/06/1976,70858,
+EQT-7268C1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BK,The Bank of New York Mellon Corp.,reports,Financials,Asset Management & Custody Banks,"New York, New York",31/03/1995,1390777,
+EQT-5618BC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BAX,Baxter International Inc.,reports,Health Care,Health Care Equipment,"Deerfield, Illinois",30/09/1972,10456,1931
+EQT-BBBC83,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BBT,BB&T Corporation,reports,Financials,Regional Banks,"Winston-Salem, North Carolina",04/12/1997,92230,
+EQT-71D7D1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BDX,Becton Dickinson,reports,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",30/09/1972,10795,1897
+EQT-53F578,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BRK.B,Berkshire Hathaway,reports,Financials,Multi-Sector Holdings,"Omaha, Nebraska",16/02/2010,1067983,
+EQT-C4D73E,Company,GMT Standard Time,London Stock Exchange,FTSE 250,08:00:00,16:30:00,BBY,Best Buy Co. Inc.,reports,Consumer Discretionary,Computer & Electronics Retail,"Richfield, Minnesota",29/06/1999,764478,
+EQT-072C54,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,BIIB,Biogen Inc.,reports,Health Care,Biotechnology,"Cambridge, Massachusetts",13/11/2003,875045,
+EQT-46300C,Company,GMT Standard Time,Digital Contact Exchange,DC Clients,08:00:00,16:30:00,BLK,BlackRock,reports,Financials,Asset Management & Custody Banks,"New York, New York",04/04/2011,1364742,
+EQT-5A36BD,Company,GMT Standard Time,Digital Contact Exchange,DC Holding Index,08:00:00,16:30:00,HRB,Block H&R,reports,Consumer Discretionary,Specialized Consumer Services,"Kansas City, Missouri",30/11/1986,12659,
+EQT-F9B378,Company,GMT Standard Time,London Stock Exchange,FTSE 100,08:00:00,16:30:00,BA,Boeing Company,reports,Industrials,Aerospace & Defense,"Chicago, Illinois",,12927,1916
+EQT-CE8875,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,BKNG,Booking Holdings Inc,reports,Consumer Discretionary,Internet & Direct Marketing Retail,"Norwalk, Connecticut",06/11/2009,1075531,
+EQT-8B6779,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BWA,BorgWarner,reports,Consumer Discretionary,Auto Parts & Equipment,"Auburn Hills, Michigan",19/12/2011,908255,
+EQT-7F9E0B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BXP,Boston Properties,reports,Real Estate,Office REITs,"Boston, Massachusetts",03/04/2006,1037540,
+EQT-93E7ED,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BSX,Boston Scientific,reports,Health Care,Health Care Equipment,"Marlborough, Massachusetts[4]",24/02/1995,885725,
+EQT-8A667F,Company,GMT Standard Time,London Stock Exchange,FTSE SmallCap Index,08:00:00,16:30:00,BMY,Bristol-Myers Squibb,reports,Health Care,Health Care Distributors,"New York, New York",,14272,1989
+EQT-C42D15,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,AVGO,Broadcom Inc.,reports,Information Technology,Semiconductors,"San Jose, California",08/05/2014,1730168,
+EQT-1D6A97,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BR,Broadridge Financial Solutions,reports,Information Technology,Data Processing & Outsourced Services,"Lake Success, New York",18/06/2018,1383312,1962
+EQT-D9EE84,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,BF.B,Brown-Forman Corp.,reports,Consumer Staples,Distillers & Vintners,"Louisville, Kentucky",31/10/1982,14693,
+EQT-02839F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CHRW,C. H. Robinson Worldwide,reports,Industrials,Air Freight & Logistics,"Eden Prairie, Minnesota",02/03/2007,1043277,
+EQT-46C89C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,COG,Cabot Oil & Gas,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",23/06/2008,858470,
+EQT-3B1812,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CDNS,Cadence Design Systems,reports,Information Technology,Application Software,"San Jose, California",18/09/2017,813672,
+EQT-ACB650,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CPB,Campbell Soup,reports,Consumer Staples,Packaged Foods & Meats,"Camden, New Jersey",,16732,1869
+EQT-99C86C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,COF,Capital One Financial,reports,Financials,Consumer Finance,"Tysons Corner, Virginia",01/07/1998,927628,1935
+EQT-5FB1BE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CPRI,Capri Holdings,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",13/11/2013,1530721,
+EQT-73152D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CAH,Cardinal Health Inc.,reports,Health Care,Health Care Distributors,"Dublin, Ohio",27/05/1997,721371,
+EQT-3C14B3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KMX,Carmax Inc,reports,Consumer Discretionary,Specialty Stores,"Richmond, Virginia",28/06/2010,1170010,
+EQT-3AC694,Company,GMT Standard Time,London Stock Exchange,FTSE 100,08:00:00,16:30:00,CCL,Carnival Corp.,reports,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",22/12/1998,815097,
+EQT-EEAEBA,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,CAT,Caterpillar Inc.,reports,Industrials,Construction Machinery & Heavy Trucks,"Deerfield, Illinois",,18230,1925
+EQT-8D56EA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CBOE,Cboe Global Markets,reports,Financials,Financial Exchanges & Data,"Chicago, Illinois",01/03/2017,1374310,
+EQT-702FE8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CBRE,CBRE Group,reports,Real Estate,Real Estate Services,"Los Angeles, California",10/11/2006,1138118,
+EQT-E50E3A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CBS,CBS Corp.,reports,Communication Services,Broadcasting,"New York, New York",01/09/1994,813828,2006
+EQT-581FA0,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,CE,Celanese,reports,Materials,Specialty Chemicals,"Irving, Texas",24/12/2018,1306830,
+EQT-5B4A72,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CELG,Celgene Corp.,reports,Health Care,Biotechnology,"Summit, New Jersey",06/11/2006,816284,
+EQT-ADCF06,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CNC,Centene Corporation,reports,Health Care,Managed Health Care,"St Louis, Missouri",30/03/2016,1071739,
+EQT-2D2EB5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CNP,CenterPoint Energy,reports,Utilities,Multi-Utilities,"Houston, Texas",31/07/1985,1130310,
+EQT-59C6A2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CTL,CenturyLink Inc,reports,Communication Services,Integrated Telecommunication Services,"Monroe, Louisiana",25/03/1999,18926,
+EQT-F37998,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CERN,Cerner,reports,Health Care,Health Care Technology,"North Kansas City, Missouri",30/04/2010,804753,
+EQT-814601,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CF,CF Industries Holdings Inc,reports,Materials,Fertilizers & Agricultural Chemicals,"Deerfield, Illinois",27/08/2008,1324404,
+EQT-681A43,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SCHW,Charles Schwab Corporation,reports,Financials,Investment Banking & Brokerage,"San Francisco, California",02/06/1997,316709,
+EQT-812F03,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CHTR,Charter Communications,reports,Communication Services,Cable & Satellite,"Stamford, Connecticut",08/09/2016,1091667,
+EQT-E0711B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CVX,Chevron Corp.,reports,Energy,Integrated Oil & Gas,"San Ramon, California",,93410,1879
+EQT-757BDE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CMG,Chipotle Mexican Grill,reports,Consumer Discretionary,Restaurants,"Newport Beach, California",28/04/2011,1058090,
+EQT-DD3720,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CB,Chubb Limited,reports,Financials,Property & Casualty Insurance,"Zurich, Switzerland",15/07/2010,896159,
+EQT-FC0339,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CHD,Church & Dwight,reports,Consumer Staples,Household Products,"Ewing, New Jersey",29/12/2015,313927,
+EQT-0499AB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CI,CIGNA Corp.,reports,Health Care,Managed Health Care,"Bloomfield, Connecticut",30/06/1976,701221,
+EQT-C71938,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,XEC,Cimarex Energy,reports,Energy,Oil & Gas Exploration & Production,"Denver, Colorado",21/06/2014,1168054,
+EQT-EB1FEE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CINF,Cincinnati Financial,reports,Financials,Property & Casualty Insurance,"Fairfield, Ohio",18/12/1997,20286,
+EQT-B1DFA3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CTAS,Cintas Corporation,reports,Industrials,Diversified Support Services,"Mason, Ohio",01/03/2001,723254,
+EQT-CA5914,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CSCO,Cisco Systems,reports,Information Technology,Communications Equipment,"San Jose, California",01/12/1993,858877,
+EQT-664BB1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,C,Citigroup Inc.,reports,Financials,Diversified Banks,"New York, New York",31/05/1988,831001,
+EQT-E65954,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CFG,Citizens Financial Group,reports,Financials,Regional Banks,"Providence, Rhode Island",29/01/2016,759944,
+EQT-4C046A,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CTXS,Citrix Systems,reports,Information Technology,Internet Software & Services,"Fort Lauderdale, Florida",01/12/1999,877890,
+EQT-D5125C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CLX,The Clorox Company,reports,Consumer Staples,Household Products,"Oakland, California",31/03/1969,21076,1913
+EQT-D15F81,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CME,CME Group Inc.,reports,Financials,Financial Exchanges & Data,"Chicago, Illinois",11/08/2006,1156375,
+EQT-D22A50,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CMS,CMS Energy,reports,Utilities,Multi-Utilities,"Jackson, Michigan",03/05/1999,811156,
+EQT-CB5C84,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KO,Coca-Cola Company,reports,Consumer Staples,Soft Drinks,"Atlanta, Georgia",,21344,1886
+EQT-1F71BB,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CTSH,Cognizant Technology Solutions,reports,Information Technology,IT Consulting & Other Services,"Teaneck, New Jersey",17/11/2006,1058290,
+EQT-9E36C6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CL,Colgate-Palmolive,reports,Consumer Staples,Household Products,"New York, New York",,21665,1806
+EQT-AE0563,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CMCSA,Comcast Corp.,reports,Communication Services,Cable & Satellite,"Philadelphia, Pennsylvania",18/09/2015,1166691,
+EQT-F675B4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CMA,Comerica Inc.,reports,Financials,Diversified Banks,"Dallas, Texas",01/12/1995,28412,
+EQT-7741FE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CAG,Conagra Brands,reports,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois",31/08/1983,23217,
+EQT-EC1A41,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,CXO,Concho Resources,reports,Energy,Oil & Gas Exploration & Production,"Midland, Texas",22/02/2016,1358071,
+EQT-68AE12,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,COP,ConocoPhillips,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",,1163165,2002
+EQT-605A34,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ED,Consolidated Edison,reports,Utilities,Electric Utilities,"New York, New York",,1047862,1823
+EQT-57FF06,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,STZ,Constellation Brands,reports,Consumer Staples,Distillers & Vintners,"Victor, New York",01/07/2005,16918,
+EQT-E7F9A3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,COO,The Cooper Companies,reports,Health Care,Health Care Supplies,"Pleasanton, California",23/09/2016,711404,
+EQT-684CBD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CPRT,Copart Inc,reports,Industrials,Diversified Support Services,"Dallas, Texas",02/07/2018,900075,
+EQT-065592,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GLW,Corning Inc.,reports,Information Technology,Electronic Components,"Corning, New York",,24741,1851
+EQT-4BEE11,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CTVA,Corteva,reports,Materials,Fertilizers & Agricultural Chemicals,"Wilmington, Delaware",03/06/2019,1755672,2019
+EQT-F5F3C9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,COST,Costco Wholesale Corp.,reports,Consumer Staples,Hypermarkets & Super Centers,"Issaquah, Washington",01/10/1993,909832,
+EQT-CAFD12,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,COTY,"Coty, Inc",reports,Consumer Staples,Personal Products,"New York, New York",03/10/2016,1024305,
+EQT-76EFA4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CCI,Crown Castle International Corp.,reports,Real Estate,Specialized REITs,"Houston, Texas",14/03/2012,1051470,
+EQT-95F2B9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,CSX,CSX Corp.,reports,Industrials,Railroads,"Jacksonville, Florida",30/09/1967,277948,1980
+EQT-DEE4BA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CMI,Cummins Inc.,reports,Industrials,Industrial Machinery,"Columbus, Indiana",31/03/1965,26172,1919
+EQT-637424,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CVS,CVS Health,reports,Health Care,Health Care Services,"Woonsocket, Rhode Island",,64803,1996
+EQT-07BFBE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DHI,D. R. Horton,reports,Consumer Discretionary,Homebuilding,"Fort Worth, Texas",,882184,1978
+EQT-5E8D60,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DHR,Danaher Corp.,reports,Health Care,Health Care Equipment,"Washington, D.C.",,313616,1969
+EQT-E4EFA9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DRI,Darden Restaurants,reports,Consumer Discretionary,Restaurants,"Orlando, Florida",,940944,1938
+EQT-AF7BA8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DVA,DaVita Inc.,reports,Health Care,Health Care Facilities,"Denver, Colorado",31/07/2008,927066,
+EQT-C279BE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DE,Deere & Co.,reports,Industrials,Agricultural & Farm Machinery,"Moline, Illinois",,315189,1837
+EQT-96B577,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DAL,Delta Air Lines Inc.,reports,Industrials,Airlines,"Atlanta, Georgia",11/09/2013,27904,
+EQT-0C7CBA,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,XRAY,Dentsply Sirona,reports,Health Care,Health Care Supplies,"York, Pennsylvania",14/11/2008,818479,
+EQT-3E6619,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DVN,Devon Energy,reports,Energy,Oil & Gas Exploration & Production,"Oklahoma City, Oklahoma",30/08/2000,1090012,
+EQT-484275,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FANG,Diamondback Energy,reports,Energy,Oil & Gas Exploration & Production,"Midland, Texas",03/12/2018,1539838,2007
+EQT-C514E9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DLR,Digital Realty Trust Inc,reports,Real Estate,Specialized REITs,"San Francisco, California",18/05/2016,1297996,
+EQT-954018,Company,GMT Standard Time,London Stock Exchange,FTSE Allshare,08:00:00,16:30:00,DFS,Discover Financial Services,reports,Financials,Consumer Finance,"Riverwoods, Illinois",02/07/2007,1393612,
+EQT-C22A4E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DISCA,Discovery Inc. Class A,reports,Communication Services,Broadcasting,"Silver Spring, Maryland",01/03/2010,1437107,
+EQT-4E2FF5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DISCK,Discovery Inc. Class C,reports,Communication Services,Broadcasting,"Silver Spring, Maryland",07/08/2014,1437107,
+EQT-085737,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DISH,Dish Network,reports,Communication Services,Cable & Satellite,"Meridian, Colorado",13/03/2017,1001082,
+EQT-16912F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DG,Dollar General,reports,Consumer Discretionary,General Merchandise Stores,"Goodlettsville, Tennessee",03/12/2012,29534,
+EQT-A649B0,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,DLTR,Dollar Tree,reports,Consumer Discretionary,General Merchandise Stores,"Chesapeake, Virginia",19/12/2011,935703,
+EQT-E62353,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,D,Dominion Energy,reports,Utilities,Electric Utilities,"Richmond, Virginia",,715957,1983
+EQT-BE8564,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DOV,Dover Corp.,reports,Industrials,Industrial Machinery,"Downers Grove, Illinois",31/10/1985,29905,
+EQT-833AB9,Index,GMT Standard Time,Digital Contact Exchange,Awards,08:00:00,16:30:00,DOW,Dow Inc.,reports,Materials,Commodity Chemicals,"Midland, Michigan",01/04/2019,1751788,2019
+EQT-44F0CE,Company,Central European Standard Time,Frankfurt Stock Exchange,DAX,09:00:00,20:00:00,DTE,DTE Energy Co.,reports,Utilities,Multi-Utilities,"Detroit, Michigan",,936340,1995
+EQT-849477,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DUK,Duke Energy,reports,Utilities,Electric Utilities,"Charlotte, North Carolina",30/06/1976,1326160,
+EQT-AC47AA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DRE,Duke Realty Corp,reports,Real Estate,Industrial REITs,"Indianapolis, Indiana",26/07/2017,783280,
+EQT-E15710,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 100,09:30:00,16:30:00,DD,DuPont de Nemours Inc,reports,Materials,Specialty Chemicals,"Midland, Michigan",,1666700,2017
+EQT-3E5D82,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DXC,DXC Technology,reports,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",04/04/2017,1688568,
+EQT-D2C408,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ETFC,E*Trade,reports,Financials,Investment Banking & Brokerage,"New York, New York",31/03/2004,1015780,
+EQT-9B572A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EMN,Eastman Chemical,reports,Materials,Diversified Chemicals,"Kingsport, Tennessee",01/01/1994,915389,
+EQT-4A3FE3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ETN,Eaton Corporation,reports,Industrials,Electrical Components & Equipment,"Dublin, Ireland",,1551182,1911
+EQT-EA45E9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,EBAY,eBay Inc.,reports,Consumer Discretionary,Internet & Direct Marketing Retail,"San Jose, California",,1065088,1995
+EQT-406478,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ECL,Ecolab Inc.,reports,Materials,Specialty Chemicals,"St. Paul, Minnesota",31/01/1989,31462,
+EQT-EBF42C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EIX,Edison Int'l,reports,Utilities,Electric Utilities,"Rosemead, California",,827052,1886
+EQT-888AC5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EW,Edwards Lifesciences,reports,Health Care,Health Care Equipment,"Irvine, California",01/04/2011,1099800,
+EQT-BEB2D6,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,EA,Electronic Arts,reports,Communication Services,Interactive Home Entertainment,"Redwood City, California",22/07/2002,712515,
+EQT-34C547,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EMR,Emerson Electric Company,reports,Industrials,Electrical Components & Equipment,"Ferguson, Missouri",31/03/1965,32604,1890
+EQT-89729D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ETR,Entergy Corp.,reports,Utilities,Electric Utilities,"New Orleans, Louisiana",,65984,1913
+EQT-5BB2BC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EOG,EOG Resources,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",02/11/2000,821189,
+EQT-482869,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EFX,Equifax Inc.,reports,Industrials,Research & Consulting Services,"Atlanta, Georgia",19/06/1997,33185,
+EQT-DCCAD9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EQIX,Equinix,reports,Real Estate,Specialized REITs,"Redwood City, California",20/03/2015,1101239,
+EQT-7873B3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EQR,Equity Residential,reports,Real Estate,Residential REITs,"Chicago, Illinois",03/12/2001,906107,
+EQT-C1994F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ESS,"Essex Property Trust, Inc.",reports,Real Estate,Residential REITs,"Palo Alto, California",02/04/2014,920522,
+EQT-BA254C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EL,Estee Lauder Cos.,reports,Consumer Staples,Personal Products,"New York, New York",05/01/2006,1001250,
+EQT-D53F8E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EVRG,Evergy,reports,Utilities,Electric Utilities,"Kansas City, Missouri",05/06/2018,1711269,1909
+EQT-8AD80E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ES,Eversource Energy,reports,Utilities,Multi-Utilities,"Springfield, Massachusetts",,72741,1966
+EQT-1BC277,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RE,Everest Re Group Ltd.,reports,Financials,Reinsurance,"Hamilton, Bermuda",19/06/2017,1095073,
+EQT-CB41A9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EXC,Exelon Corp.,reports,Utilities,Multi-Utilities,"Chicago, Illinois",,1109357,2000
+EQT-9C599D,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,EXPE,Expedia Group,reports,Consumer Discretionary,Internet & Direct Marketing Retail,"Bellevue, Washington",02/10/2007,1324424,
+EQT-5B589A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,EXPD,Expeditors,reports,Industrials,Air Freight & Logistics,"Seattle, Washington",10/10/2007,746515,
+EQT-4B6326,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,EXR,Extra Space Storage,reports,Real Estate,Specialized REITs,"Salt Lake City, Utah",19/01/2016,1289490,
+EQT-2C712A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,XOM,Exxon Mobil Corp.,reports,Energy,Integrated Oil & Gas,"Irving, Texas",,34088,1999
+EQT-27CE04,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FFIV,F5 Networks,reports,Information Technology,Communications Equipment,"Seattle, Washington",20/12/2010,1048695,1996
+EQT-FB3CB4,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,FB,"Facebook, Inc.",reports,Communication Services,Interactive Media & Services,"Menlo Park, California",23/12/2013,1326801,
+EQT-0C5B3C,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,FAST,Fastenal Co,reports,Industrials,Building Products,"Winona, Minnesota",15/09/2009,815556,
+EQT-84887C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FRT,Federal Realty Investment Trust,reports,Real Estate,Retail REITs,"Rockville, Maryland",01/02/2016,34903,
+EQT-EA7CBE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FDX,FedEx Corporation,reports,Industrials,Air Freight & Logistics,"Memphis, Tennessee",31/12/1980,1048911,
+EQT-712807,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FIS,Fidelity National Information Services,reports,Information Technology,Internet Software & Services,"Jacksonville, Florida",10/11/2006,1136893,
+EQT-7A1466,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FITB,Fifth Third Bancorp,reports,Financials,Regional Banks,"Cincinnati, Ohio",,35527,1858
+EQT-D0096E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FE,FirstEnergy Corp,reports,Utilities,Electric Utilities,"Akron, Ohio",,1031296,1997
+EQT-308510,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FRC,First Republic Bank,reports,Financials,Regional Banks,"San Francisco, California",02/01/2019,1132979,1985
+EQT-A4069E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FISV,Fiserv Inc,reports,Information Technology,Internet Software & Services,"Brookfield, Wisconsin",02/04/2001,798354,
+EQT-F0DA0D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FLT,FleetCor Technologies Inc,reports,Information Technology,Data Processing & Outsources Services,"Norcross, Georgia",20/06/2018,1175454,2000
+EQT-1F271E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FLIR,FLIR Systems,reports,Information Technology,Electronic Equipment & Instruments,"Wilsonville, Oregon",02/01/2009,354908,
+EQT-7E941D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FLS,Flowserve Corporation,reports,Industrials,Industrial Machinery,"Irving, Texas",02/10/2008,30625,
+EQT-00D063,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FMC,FMC Corporation,reports,Materials,Fertilizers & Agricultural Chemicals,"Philadelphia, Pennsylvania",19/08/2009,37785,
+EQT-D9456C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,F,Ford Motor,reports,Consumer Discretionary,Automobile Manufacturers,"Dearborn, Michigan",,37996,1903
+EQT-5ABC1A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FTNT,Fortinet,reports,Information Technology,Systems Software,"Sunnyvale, California",11/10/2018,1262039,2000
+EQT-E470CC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FTV,Fortive Corp,reports,Industrials,Industrial Machinery,"Everett, Washington",01/07/2016,1659166,
+EQT-31E87B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FBHS,Fortune Brands Home & Security,reports,Industrials,Building Products,"Deerfield, Illinois",22/06/2016,1519751,
+EQT-4CBEC0,Company,GMT Standard Time,Digital Contact Exchange,DC Holding Index,08:00:00,16:30:00,FOXA,Fox Corporation Class A,reports,Communication Services,Movies & Entertainment,"New York, New York",01/07/2013,1308161,
+EQT-545561,Company,GMT Standard Time,Digital Contact Exchange,DC Holding Index,08:00:00,16:30:00,FOX,Fox Corporation Class B,reports,Communication Services,Movies & Entertainment,"New York, New York",18/09/2015,1308161,
+EQT-A7AE4B,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,BEN,Franklin Resources,reports,Financials,Asset Management & Custody Banks,"San Mateo, California",,38777,1947
+EQT-94E11E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,FCX,Freeport-McMoRan Inc.,reports,Materials,Copper,"Phoenix, Arizona",,831259,1912
+EQT-E85812,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GPS,Gap Inc.,reports,Consumer Discretionary,Apparel Retail,"San Francisco, California",31/08/1986,39911,
+EQT-694B5E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GRMN,Garmin Ltd.,reports,Consumer Discretionary,Consumer Electronics,"Schaffhausen, Switzerland",12/12/2012,1121788,
+EQT-18F42F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IT,Gartner Inc,reports,Information Technology,IT Consulting & Other Services,"Stamford, Connecticut",05/04/2017,749251,
+EQT-FEDC3A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GD,General Dynamics,reports,Industrials,Aerospace & Defense,"Falls Church, Virginia",,40533,1899
+EQT-73F3BB,Company,GMT Standard Time,Digital Contact Exchange,DC Holding Index,08:00:00,16:30:00,GE,General Electric,reports,Industrials,Industrial Conglomerates,"Boston, Massachusetts",,40545,1892
+EQT-E4C6F3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GIS,General Mills,reports,Consumer Staples,Packaged Foods & Meats,"Golden Valley, Minnesota",31/03/1969,40704,1856
+EQT-B8EC94,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GM,General Motors,reports,Consumer Discretionary,Automobile Manufacturers,"Detroit, Michigan",06/06/2013,1467858,
+EQT-B3A3D4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GPC,Genuine Parts,reports,Consumer Discretionary,Specialty Stores,"Atlanta, Georgia",31/12/1973,40987,1925
+EQT-EB79FF,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,GILD,Gilead Sciences,reports,Health Care,Biotechnology,"Foster City, California",01/07/2004,882095,
+EQT-B24DCB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GPN,Global Payments Inc.,reports,Information Technology,Data Processing & Outsourced Services,"Atlanta, Georgia",25/04/2016,1123360,
+EQT-FBA480,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GS,Goldman Sachs Group,reports,Financials,Investment Banking & Brokerage,"New York, New York",22/07/2002,886982,
+EQT-EA7A36,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,GWW,Grainger (W.W.) Inc.,reports,Industrials,Industrial Machinery,"Lake Forest, Illinois",30/06/1981,277135,
+EQT-83BF51,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HAL,Halliburton Co.,reports,Energy,Oil & Gas Equipment & Services,"Houston, Texas",,45012,1919
+EQT-54DC16,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HBI,Hanesbrands Inc,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Winston-Salem, North Carolina",20/03/2015,1359841,
+EQT-F39314,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HOG,Harley-Davidson,reports,Consumer Discretionary,Motorcycle Manufacturers,"Milwaukee, Wisconsin",,793952,1903
+EQT-7B2251,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HIG,Hartford Financial Svc.Gp.,reports,Financials,Property & Casualty Insurance,"Hartford, Connecticut",,874766,
+EQT-D1B271,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HAS,Hasbro Inc.,reports,Consumer Discretionary,Leisure Products,"Pawtucket, Rhode Island",30/09/1984,46080,
+EQT-F3F01F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HCA,HCA Healthcare,reports,Health Care,Health Care Facilities,"Nashville, Tennessee",27/01/2015,860730,
+EQT-9E3703,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HCP,HCP Inc.,reports,Real Estate,Health Care REITs,"Long Beach, California",31/03/2008,765880,
+EQT-1DDABD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HP,Helmerich & Payne,reports,Energy,Oil & Gas Drilling,"Tulsa, Oklahoma[5]",01/03/2010,46765,
+EQT-790EF2,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,HSIC,Henry Schein,reports,Health Care,Health Care Distributors,"Melville, New York",17/03/2015,1000228,
+EQT-9033DB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HSY,The Hershey Company,reports,Consumer Staples,Packaged Foods & Meats,"Hershey, Pennsylvania",,47111,1894
+EQT-26EE7E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HES,Hess Corporation,reports,Energy,Integrated Oil & Gas,"New York, New York",31/05/1984,4447,
+EQT-C04AE4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HPE,Hewlett Packard Enterprise,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",02/11/2015,1645590,
+EQT-93B3AA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HLT,Hilton Worldwide Holdings Inc,reports,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Tysons Corner, Virginia",19/06/2017,1585689,
+EQT-E0AE94,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HFC,HollyFrontier Corp,reports,Energy,Oil & Gas Refining & Marketing,"Dallas, Texas",18/06/2018,48039,
+EQT-49E1E3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HOLX,Hologic,reports,Health Care,Health Care Equipment,"Marlborough, Massachusetts",30/03/2016,859737,
+EQT-3C6812,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HD,Home Depot,reports,Consumer Discretionary,Home Improvement Retail,"Atlanta, Georgia",31/03/1988,354950,
+EQT-DA5117,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HON,Honeywell Int'l Inc.,reports,Industrials,Industrial Conglomerates,"Morristown, New Jersey",31/03/1964,773840,1906
+EQT-F86CDA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HRL,Hormel Foods Corp.,reports,Consumer Staples,Packaged Foods & Meats,"Austin, Minnesota",04/03/2009,48465,
+EQT-59F395,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HST,Host Hotels & Resorts,reports,Real Estate,Hotel & Resort REITs,"Bethesda, Maryland",20/03/2007,1070750,
+EQT-7871DF,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HPQ,HP Inc.,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",31/12/1974,47217,1939 (2015)
+EQT-D96A31,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HUM,Humana Inc.,reports,Health Care,Managed Health Care,"Louisville, Kentucky",,49071,1961
+EQT-75E2DB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HBAN,Huntington Bancshares,reports,Financials,Regional Banks,"Columbus, Ohio",,49196,1866
+EQT-4F8264,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,HII,Huntington Ingalls Industries,reports,Industrials,Aerospace & Defense,"Newport News, Virginia",03/01/2018,1501585,
+EQT-413A6B,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,IEX,IDEX Corporation,reports,Industrials,Industrial Machinery,"Lake Forest, Illinois",09/08/2019,832101,1988
+EQT-AB3817,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,IDXX,IDEXX Laboratories,reports,Health Care,Health Care Equipment,"Westbrook, Maine",05/01/2017,874716,
+EQT-753833,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,INFO,IHS Markit Ltd.,reports,Industrials,Research & Consulting Services,"London, United Kingdom",02/06/2017,1598014,
+EQT-157B0E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ITW,Illinois Tool Works,reports,Industrials,Industrial Machinery,"Glenview, Illinois",28/02/1986,49826,
+EQT-72ABFD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ILMN,Illumina Inc,reports,Health Care,Life Sciences Tools & Services,"San Diego, California",19/11/2015,1110803,
+EQT-CE0266,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IR,Ingersoll-Rand PLC,reports,Industrials,Industrial Machinery,"Dublin, Ireland",17/11/2010,1466258,
+EQT-5C3A8D,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,INTC,Intel Corp.,reports,Information Technology,Semiconductors,"Santa Clara, California",31/12/1976,50863,
+EQT-DEF98F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ICE,Intercontinental Exchange,reports,Financials,Financial Exchanges & Data,"Atlanta, Georgia",26/09/2007,1571949,
+EQT-95D231,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IBM,International Business Machines,reports,Information Technology,IT Consulting & Other Services,"Armonk, New York",,51143,1911
+EQT-2A1404,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,INCY,Incyte,reports,Health Care,Biotechnology,"Wilmington, Delaware",28/02/2017,879169,
+EQT-CCF272,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IP,International Paper,reports,Materials,Paper Packaging,"Memphis, Tennessee",,51434,1898
+EQT-E0744A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IPG,Interpublic Group,reports,Communication Services,Advertising,"New York, New York",01/10/1992,51644,
+EQT-F3AD7B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IFF,Intl Flavors & Fragrances,reports,Materials,Specialty Chemicals,"New York, New York",31/03/1976,51253,
+EQT-9F84F8,Company,GMT Standard Time,London Stock Exchange,FTSE 250,08:00:00,16:30:00,INTU,Intuit Inc.,reports,Information Technology,Internet Software & Services,"Mountain View, California",05/12/2000,896878,
+EQT-A65DD9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ISRG,Intuitive Surgical Inc.,reports,Health Care,Health Care Equipment,"Sunnyvale, California",02/06/2008,1035267,
+EQT-9C3071,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IVZ,Invesco Ltd.,reports,Financials,Asset Management & Custody Banks,"Atlanta, Georgia",21/08/2008,914208,
+EQT-A2500C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IPGP,IPG Photonics Corp.,reports,Information Technology,Electronic Manufacturing Services,"Oxford, Massachusetts",07/03/2018,1111928,
+EQT-9540DC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IQV,IQVIA Holdings Inc.,reports,Health Care,Life Sciences Tools & Services,"Durham, North Carolina",29/08/2017,1478242,
+EQT-56011B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,IRM,Iron Mountain Incorporated,reports,Real Estate,Specialized REITs,"Boston, Massachusetts",06/01/2009,1020569,
+EQT-1742A1,Company,Eastern Standard Time,NASDAQ,Dow Jones Industrial Index,09:30:00,16:30:00,JKHY,Jack Henry & Associates,reports,Information Technology,Data Processing & Outsourced Services,"Monett, Missouri",13/11/2018,779152,
+EQT-2EE774,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JEC,Jacobs Engineering Group,reports,Industrials,Construction & Engineering,"Pasadena, California",26/10/2007,52988,
+EQT-85ABF3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JBHT,J. B. Hunt Transport Services,reports,Industrials,Trucking,"Lowell, Arkansas",01/07/2015,728535,
+EQT-577605,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JEF,Jefferies Financial Group,reports,Financials,Multi-Sector Holdings,"New York, New York",27/08/2007,96223,
+EQT-768069,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SJM,JM Smucker,reports,Consumer Staples,Packaged Foods & Meats,"Orrville, Ohio",06/11/2008,91419,
+EQT-0AF3F3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JNJ,Johnson & Johnson,reports,Health Care,Pharmaceuticals,"New Brunswick, New Jersey",30/06/1973,200406,1886
+EQT-78978B,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,JCI,Johnson Controls International,reports,Industrials,Building Products,"Cork, Ireland",27/08/2010,833444,
+EQT-EC2C09,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JPM,JPMorgan Chase & Co.,reports,Financials,Diversified Banks,"New York, New York",30/06/1975,19617,
+EQT-EE8041,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JNPR,Juniper Networks,reports,Information Technology,Communications Equipment,"Sunnyvale, California",,1043604,1996
+EQT-BEB3C5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KSU,Kansas City Southern,reports,Industrials,Railroads,"Kansas City, Missouri",24/05/2013,54480,
+EQT-0E2A72,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,K,Kellogg Co.,reports,Consumer Staples,Packaged Foods & Meats,"Battle Creek, Michigan",,55067,1906
+EQT-5485B8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KEY,KeyCorp,reports,Financials,Regional Banks,"Cleveland, Ohio",01/03/1994,91576,
+EQT-F49F77,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KEYS,Keysight Technologies,reports,Information Technology,Electronic Equipment & Instruments,"Santa Rosa, California",06/11/2018,1601046,2014
+EQT-C6DE6C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KMB,Kimberly-Clark,reports,Consumer Staples,Household Products,"Irving, Texas",,55785,1872
+EQT-20EC2B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KIM,Kimco Realty,reports,Real Estate,Retail REITs,"New Hyde Park, New York",04/04/2006,879101,
+EQT-707DD6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KMI,Kinder Morgan,reports,Energy,Oil & Gas Storage & Transportation,"Houston, Texas",25/05/2012,1506307,
+EQT-262732,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KLAC,KLA Corporation,reports,Information Technology,Semiconductor Equipment,"Milpitas, California",,319201,1975/1977 (1997)
+EQT-0872F5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KSS,Kohl's Corp.,reports,Consumer Discretionary,General Merchandise Stores,"Menomonee Falls, Wisconsin",,885639,1962
+EQT-D5FA37,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,KHC,Kraft Heinz Co,reports,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois; Pittsburgh, Pennsylvania",06/07/2015,1637459,
+EQT-E124F3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,KR,Kroger Co.,reports,Consumer Staples,Food Retail,"Cincinnati, Ohio",,56873,1883
+EQT-21FA11,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LB,L Brands Inc.,reports,Consumer Discretionary,Apparel Retail,"Columbus, Ohio",30/09/1983,701985,
+#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,LHX,L3Harris Technologies,reports,Industrials,Aerospace & Defense,"Melbourne, Florida",,202058,
+EQT-E7C07F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LH,Laboratory Corp. of America Holding,reports,Health Care,Health Care Services,"Burlington, North Carolina",01/11/2004,920148,
+EQT-3169B4,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,LRCX,Lam Research,reports,Information Technology,Semiconductor Equipment,"Fremont, California",29/06/2012,707549,
+EQT-CCDF62,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LW,Lamb Weston Holdings Inc,reports,Consumer Staples,Packaged Foods & Meats,"Eagle, Idaho",03/12/2018,1679273,
+EQT-56249A,Company,GMT Standard Time,Digital Contact Exchange,Unicorns,08:00:00,16:30:00,LEG,Leggett & Platt,reports,Consumer Discretionary,Home Furnishings,"Carthage, Missouri",,58492,1883
+EQT-CD2D55,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,LDOS,Leidos Holdings,reports,Information Technology,IT Consulting & Other Services,"Reston, Virginia",09/08/2019,1336920,1969
+EQT-EE1A02,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LEN,Lennar Corp.,reports,Consumer Discretionary,Homebuilding,"Miami, Florida",04/10/2005,920760,
+EQT-DB8640,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LLY,Lilly (Eli) & Co.,reports,Health Care,Pharmaceuticals,"Indianapolis, Indiana",31/12/1970,59478,1876
+EQT-F71B6D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LNC,Lincoln National,reports,Financials,Multi-line Insurance,"Radnor, Pennsylvania",30/06/1976,59558,
+EQT-D9E1CD,Company,Central European Standard Time,Frankfurt Stock Exchange,DAX,09:00:00,20:00:00,LIN,Linde plc,reports,Materials,Industrial Gases,"Guildford, Surrey, United Kingdom",01/07/1992,1707925,
+EQT-980DEC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LKQ,LKQ Corporation,reports,Consumer Discretionary,Distributors,"Chicago, Illinois",23/05/2016,1065696,
+EQT-4C6F43,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LMT,Lockheed Martin Corp.,reports,Industrials,Aerospace & Defense,"Bethesda, Maryland",31/07/1984,936468,
+EQT-FFDC45,Company,Eastern Standard Time,Toronto Stock Exchange,S&P/TSX 60,09:30:00,16:00:00,L,Loews Corp.,reports,Financials,Multi-line Insurance,"New York, New York",,60086,
+EQT-A47E02,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LOW,Lowe's Cos.,reports,Consumer Discretionary,Home Improvement Retail,"Mooresville, North Carolina",29/02/1984,60667,1904/1946/1959
+EQT-6E770F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LYB,LyondellBasell,reports,Materials,Specialty Chemicals,"Rotterdam, Netherlands",05/09/2012,1489393,
+EQT-2EEF7D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MTB,M&T Bank Corp.,reports,Financials,Regional Banks,"Buffalo, New York",,36270,1856
+EQT-D971C7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MAC,Macerich,reports,Real Estate,Retail REITs,"Santa Monica, California",09/05/2013,912242,
+EQT-D3D8EA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,M,Macy's Inc.,reports,Consumer Discretionary,Department Stores,"Cincinnati, Ohio",,794367,1929
+EQT-0C026B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MRO,Marathon Oil Corp.,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",01/05/1991,101778,
+EQT-5DD660,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MPC,Marathon Petroleum,reports,Energy,Oil & Gas Refining & Marketing,"Findlay, Ohio",01/07/2011,1510295,
+#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,MKTX,MarketAxess,reports,Financials,Financial Exchanges & Data,"New York, New York",01/07/2019,1278021,
+EQT-C84C2E,Company,GMT Standard Time,Digital Contact Exchange,Unicorns,08:00:00,16:30:00,MAR,Marriott Int'l.,reports,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Bethesda, Maryland",,1048286,1927
+EQT-DBDDFA,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MMC,Marsh & McLennan,reports,Financials,Insurance Brokers,"New York, New York",31/08/1987,62709,
+EQT-58C8F7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MLM,Martin Marietta Materials,reports,Materials,Construction Materials,"Raleigh, North Carolina",02/07/2014,916076,
+EQT-377991,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MAS,Masco Corp.,reports,Industrials,Building Products,"Taylor, Michigan",30/06/1981,62996,
+EQT-8FA4A5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MA,Mastercard Inc.,reports,Information Technology,IT Services,"Harrison, New York",18/07/2008,1141391,
+EQT-26F3E3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MKC,McCormick & Co.,reports,Consumer Staples,Packaged Foods & Meats,"Sparks, Maryland",,63754,1889
+EQT-BD5DDF,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MXIM,Maxim Integrated Products Inc,reports,Information Technology,Semiconductors,"San Jose, California",03/12/2018,743316,1983
+EQT-964711,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MCD,McDonald's Corp.,reports,Consumer Discretionary,Restaurants,"Chicago, Illinois",30/06/1970,63908,1940
+EQT-D050B8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MCK,McKesson Corp.,reports,Health Care,Health Care Distributors,"San Francisco, California",,927653,1833
+EQT-C6B638,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MDT,Medtronic plc,reports,Health Care,Health Care Equipment,"Dublin, Ireland",31/10/1986,1613103,
+EQT-2283F3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MRK,Merck & Co.,reports,Health Care,Pharmaceuticals,"Whitehouse Station, New Jersey",,310158,1891
+EQT-404F3D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MET,MetLife Inc.,reports,Financials,Life & Health Insurance,"New York, New York",,1099219,1868
+EQT-CFEF03,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MTD,Mettler Toledo,reports,Health Care,Life Sciences Tools & Services,"Columbus, Ohio",06/09/2016,1037646,
+EQT-A30CC2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MGM,MGM Resorts International,reports,Consumer Discretionary,Casinos & Gaming,"Paradise, Nevada",26/07/2017,789570,
+EQT-244DE7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MCHP,Microchip Technology,reports,Information Technology,Semiconductors,"Chandler, Arizona",07/09/2007,827054,
+EQT-5F1C69,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MU,Micron Technology,reports,Information Technology,Semiconductors,"Boise, Idaho",27/09/1994,723125,
+EQT-84E7F3,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MSFT,Microsoft Corp.,reports,Information Technology,Systems Software,"Redmond, Washington",01/06/1994,789019,1975
+EQT-99442D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MAA,Mid-America Apartments,reports,Real Estate,Residential REITs,"Memphis, Tennessee",02/12/2016,912595,
+EQT-4981FE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MHK,Mohawk Industries,reports,Consumer Discretionary,Home Furnishings,"Amsterdam, New York",23/12/2013,851968,
+EQT-EAFE05,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TAP,Molson Coors Brewing Company,reports,Consumer Staples,Brewers,"Denver, Colorado",30/06/1976,24545,
+EQT-E63072,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MDLZ,Mondelez International,reports,Consumer Staples,Packaged Foods & Meats,"Deerfield, Illinois",02/10/2012,1103982,
+EQT-F04B92,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MNST,Monster Beverage,reports,Consumer Staples,Soft Drinks,"Corona, California",28/06/2012,865752,
+EQT-C2E2E7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MCO,Moody's Corp,reports,Financials,Financial Exchanges & Data,"New York, New York",,1059556,1909
+EQT-0B6D4C,Company,Central European Standard Time,Milan Stock Exchange,FTSE MIB,09:00:00,17:20:00,MS,Morgan Stanley,reports,Financials,Investment Banking & Brokerage,"New York, New York",,895421,1935
+EQT-443B93,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,MOS,The Mosaic Company,reports,Materials,Fertilizers & Agricultural Chemicals,"Plymouth, Minnesota",26/09/2011,1285785,
+EQT-B4A587,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MSI,Motorola Solutions Inc.,reports,Information Technology,Communications Equipment,"Schaumburg, Illinois",,68505,1928 (2011)
+EQT-E93E09,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,MSCI,MSCI Inc,reports,Financials,Financial Exchanges & Data,"New York, New York",04/04/2018,1408198,
+EQT-05F304,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,MYL,Mylan N.V.,reports,Health Care,Pharmaceuticals,"Amsterdam, Netherlands",23/04/2004,1623613,
+EQT-BABBBD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NDAQ,"Nasdaq, Inc.",reports,Financials,Financial Exchanges & Data,"New York, New York",22/10/2008,1120193,
+EQT-78BD70,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NOV,National Oilwell Varco Inc.,reports,Energy,Oil & Gas Equipment & Services,"Houston, Texas",14/03/2005,1021860,
+EQT-987EFC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NKTR,Nektar Therapeutics,reports,Health Care,Pharmaceuticals,"San Francisco, California",19/03/2018,906709,
+EQT-41FE94,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,NTAP,NetApp,reports,Information Technology,Internet Software & Services,"Sunnyvale, California",25/06/1999,1002047,
+EQT-CA290B,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,NFLX,Netflix Inc.,reports,Communication Services,Movies & Entertainment,"Los Gatos, California",20/12/2010,1065280,1997
+EQT-D716DD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NWL,Newell Brands,reports,Consumer Discretionary,Housewares & Specialties,"Hoboken, New Jersey",30/04/1989,814453,
+EQT-95F247,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NEM,Newmont Goldcorp,reports,Materials,Gold,"Denver, Colorado",30/06/1969,1164727,1921
+EQT-89C33E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NWSA,News Corp. Class A,reports,Communication Services,Publishing,"New York, New York",01/08/2013,1564708,
+EQT-019235,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NWS,News Corp. Class B,reports,Communication Services,Publishing,"New York, New York",18/09/2015,1564708,
+EQT-46847D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NEE,NextEra Energy,reports,Utilities,Multi-Utilities,"Juno Beach, Florida",30/06/1976,753308,
+EQT-EC6216,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NLSN,Nielsen Holdings,reports,Industrials,Research & Consulting Services,"New York, New York",09/07/2013,1492633,
+EQT-FCAF87,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NKE,Nike,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Washington County, Oregon",30/11/1988,320187,
+EQT-A2F350,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NI,NiSource Inc.,reports,Utilities,Multi-Utilities,"Merrillville, Indiana",,1111711,1912
+EQT-97A692,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NBL,Noble Energy Inc,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",08/10/2007,72207,
+EQT-D9A499,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,JWN,Nordstrom,reports,Consumer Discretionary,Department Stores,"Seattle, Washington",31/08/1986,72333,
+EQT-7E5F61,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,NSC,Norfolk Southern Corp.,reports,Industrials,Railroads,"Norfolk, Virginia",,702165,1881/1894 (1980)
+EQT-9A4717,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NTRS,Northern Trust Corp.,reports,Financials,Asset Management & Custody Banks,"Chicago, Illinois",,73124,1889
+EQT-CFFBDE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NOC,Northrop Grumman,reports,Industrials,Aerospace & Defense,"West Falls Church, Virginia",30/06/1985,1133421,
+EQT-00E34C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NCLH,Norwegian Cruise Line Holdings,reports,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",13/10/2017,1513761,
+EQT-1904A8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NRG,NRG Energy,reports,Utilities,Independent Power Producers & Energy Traders,"Princeton, New Jersey",29/01/2010,1013871,
+EQT-E89C77,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,NUE,Nucor Corp.,reports,Materials,Steel,"Charlotte, North Carolina",30/04/1985,73309,
+EQT-1BE1C5,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,NVDA,Nvidia Corporation,reports,Information Technology,Semiconductors,"Santa Clara, California",30/11/2001,1045810,
+EQT-4DAB8E,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ORLY,O'Reilly Automotive,reports,Consumer Discretionary,Specialty Stores,"Springfield, Missouri",27/03/2009,898173,
+EQT-741846,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,OXY,Occidental Petroleum,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",31/12/1982,797468,
+EQT-350FD2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,OMC,Omnicom Group,reports,Communication Services,Advertising,"New York, New York",,29989,1986
+EQT-543162,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,OKE,ONEOK,reports,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",15/03/2010,1039684,
+EQT-4B6AFC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ORCL,Oracle Corp.,reports,Information Technology,Application Software,"Redwood Shores, California",31/08/1989,1341439,
+EQT-3F5C04,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,PCAR,PACCAR Inc.,reports,Industrials,Construction Machinery & Heavy Trucks,"Bellevue, Washington",31/12/1980,75362,
+EQT-3234CF,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PKG,Packaging Corporation of America,reports,Materials,Paper Packaging,"Lake Forest, Illinois",26/07/2017,75677,
+EQT-DB6A61,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PH,Parker-Hannifin,reports,Industrials,Industrial Machinery,"Cleveland, Ohio",30/11/1985,76334,
+EQT-30270E,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,PAYX,Paychex Inc.,reports,Information Technology,Internet Software & Services,"Penfield, New York",,723531,1971
+EQT-CE47D2,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,PYPL,PayPal,reports,Information Technology,Data Processing & Outsourced Services,"San Jose, California",20/07/2015,1633917,
+EQT-F2290A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PNR,Pentair plc,reports,Industrials,Industrial Machinery,"Worsley, UK",01/10/2012,77360,
+EQT-467BDC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PBCT,People's United Financial,reports,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",13/11/2008,1378946,
+EQT-5BFE9E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PEP,PepsiCo Inc.,reports,Consumer Staples,Soft Drinks,"Purchase, New York",,77476,1898
+EQT-DA46A5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PKI,PerkinElmer,reports,Health Care,Health Care Equipment,"Waltham, Massachusetts",31/05/1985,31791,
+EQT-0C67FF,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PRGO,Perrigo,reports,Health Care,Pharmaceuticals,"Dublin, Ireland",19/12/2011,1585364,
+EQT-0AAD21,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,PFE,Pfizer Inc.,reports,Health Care,Pharmaceuticals,"New York, New York",,78003,1849
+EQT-F328B1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PM,Philip Morris International,reports,Consumer Staples,Tobacco,"New York, New York",31/03/2008,1413329,
+EQT-E8FDA8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PSX,Phillips 66,reports,Energy,Oil & Gas Refining & Marketing,"Houston, Texas",01/05/2012,1534701,
+EQT-C0302A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PNW,Pinnacle West Capital,reports,Utilities,Multi-Utilities,"Phoenix, Arizona",,764622,1985
+EQT-39AEE9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PXD,Pioneer Natural Resources,reports,Energy,Oil & Gas Exploration & Production,"Irving, Texas",24/09/2008,1038357,
+EQT-4A0C2F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PNC,PNC Financial Services,reports,Financials,Regional Banks,"Pittsburgh, Pennsylvania",30/04/1988,713676,
+EQT-2BC9DB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PPG,PPG Industries,reports,Materials,Specialty Chemicals,"Pittsburgh, Pennsylvania",,79879,1883
+EQT-B6A377,Company,Eastern Standard Time,Toronto Stock Exchange,S&P/TSX 60,09:30:00,16:00:00,PPL,PPL Corp.,reports,Utilities,Electric Utilities,"Allentown, Pennsylvania",,922224,
+EQT-B7A90B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PFG,Principal Financial Group,reports,Financials,Life & Health Insurance,"Des Moines, Iowa",22/07/2002,1126328,
+EQT-E927A3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PG,Procter & Gamble,reports,Consumer Staples,Personal Products,"Cincinnati, Ohio",,80424,1837
+EQT-403F90,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PGR,Progressive Corp.,reports,Financials,Property & Casualty Insurance,"Mayfield Village, Ohio",04/08/1997,80661,
+EQT-BD8CB8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PLD,Prologis,reports,Real Estate,Industrial REITs,"San Francisco, California",17/07/2003,1045609,
+EQT-316A1D,Company,E. Australia Standard Time,Australian Securities Exchange,S&P/ASX 200,10:00:00,16:00:00,PRU,Prudential Financial,reports,Financials,Life & Health Insurance,"Newark, New Jersey",22/07/2002,1137774,
+EQT-B5A884,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PEG,Public Serv. Enterprise Inc.,reports,Utilities,Electric Utilities,"Newark, New Jersey",,788784,
+EQT-D2DB0B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PSA,Public Storage,reports,Real Estate,Specialized REITs,"Glendale, California",19/08/2005,1393311,
+EQT-4B1046,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PHM,Pulte Homes Inc.,reports,Consumer Discretionary,Homebuilding,"Atlanta, Georgia",30/04/1984,822416,
+EQT-76C576,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PVH,PVH Corp.,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",15/02/2013,78239,
+EQT-80E7D0,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,QRVO,Qorvo,reports,Information Technology,Semiconductors,"Greensboro, North Carolina",11/06/2015,1604778,
+EQT-B21101,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,PWR,Quanta Services Inc.,reports,Industrials,Construction & Engineering,"Houston, Texas",01/07/2009,1050915,
+EQT-03CB28,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,QCOM,QUALCOMM Inc.,reports,Information Technology,Semiconductors,"San Diego, California",,804328,1985
+EQT-C1F653,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DGX,Quest Diagnostics,reports,Health Care,Health Care Services,"Madison, New Jersey",12/12/2002,1022079,
+EQT-9344A6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RL,Ralph Lauren Corporation,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",02/02/2007,1037038,
+EQT-346A3F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RJF,Raymond James Financial Inc.,reports,Financials,Investment Banking & Brokerage,"St. Petersburg, Florida",20/03/2017,720005,
+EQT-7E5CB2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RTN,Raytheon Co.,reports,Industrials,Aerospace & Defense,"Waltham, Massachusetts",,1047122,1922
+EQT-16EF85,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,O,Realty Income Corporation,reports,Real Estate,Retail REITs,"San Diego, California",07/04/2015,726728,
+EQT-6627B4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,REG,Regency Centers Corporation,reports,Real Estate,Retail REITs,"Jacksonville, Florida",02/03/2017,910606,
+EQT-61C032,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,REGN,Regeneron Pharmaceuticals,reports,Health Care,Biotechnology,"Tarrytown, New York",01/05/2013,872589,
+EQT-E20E0E,Company,Central European Standard Time,Euronext Amsterdam,CAC MID 60 ,09:00:00,17:40:00,RF,Regions Financial Corp.,reports,Financials,Regional Banks,"Birmingham, Alabama",28/08/1998,1281761,
+EQT-0BCF54,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RSG,Republic Services Inc,reports,Industrials,Environmental & Facilities Services,"Phoenix, Arizona",05/12/2008,1060391,
+EQT-4CD438,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RMD,ResMed,reports,Health Care,Health Care Equipment,"San Diego, California",26/07/2017,943819,
+EQT-3BFC00,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RHI,Robert Half International,reports,Industrials,Human Resource & Employment Services,"Menlo Park, California",05/12/2000,315213,
+EQT-F1A22F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ROK,Rockwell Automation Inc.,reports,Industrials,Electrical Components & Equipment,"Milwaukee, Wisconsin",,1024478,
+EQT-3F3533,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ROL,Rollins Inc.,reports,Industrials,Environmental & Facilities Services,"Atlanta, Georgia",01/10/2018,84839,
+EQT-F2ADA8,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ROP,Roper Technologies,reports,Industrials,Industrial Conglomerates,"Sarasota, Florida",23/12/2009,882835,
+EQT-21D14C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ROST,Ross Stores,reports,Consumer Discretionary,Apparel Retail,"Pleasanton, California",21/12/2009,745732,
+EQT-33357A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,RCL,Royal Caribbean Cruises Ltd,reports,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",05/12/2014,884887,
+EQT-6AC0F5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,CRM,Salesforce.com,reports,Information Technology,Internet Software & Services,"San Francisco, California",15/09/2008,1108524,
+EQT-0BA394,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SBAC,SBA Communications,reports,Real Estate,Specialized REITs,"Boca Raton, Florida",01/09/2017,1034054,
+EQT-1116AE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SLB,Schlumberger Ltd.,reports,Energy,Oil & Gas Equipment & Services,"Curaçao, Kingdom of the Netherlands",31/03/1965,87347,1926
+EQT-C1E418,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,STX,Seagate Technology,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",02/07/2012,1137789,
+EQT-F97AC8,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,SEE,Sealed Air,reports,Materials,Paper Packaging,"Elmwood Park, New Jersey",,1012100,
+EQT-32F936,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SRE,Sempra Energy,reports,Utilities,Multi-Utilities,"San Diego, California",,1032208,
+EQT-559DFD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SHW,Sherwin-Williams,reports,Materials,Specialty Chemicals,"Cleveland, Ohio",30/06/1964,89800,1866
+EQT-5FF36A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SPG,Simon Property Group Inc,reports,Real Estate,Retail REITs,"Indianapolis, Indiana",26/06/2002,1063761,
+EQT-B8B242,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,SWKS,Skyworks Solutions,reports,Information Technology,Semiconductors,"Woburn, Massachusetts",12/03/2015,4127,
+EQT-C52CDC,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SLG,SL Green Realty,reports,Real Estate,Office REITs,"New York, New York",20/03/2015,1040971,
+EQT-0698CF,Company,GMT Standard Time,Digital Contact Exchange,DC Clients,08:00:00,16:30:00,SNA,Snap-on,reports,Industrials,Industrial Machinery,"Kenosha, Wisconsin",30/09/1982,91440,1920
+EQT-ED0F4F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SO,Southern Co.,reports,Utilities,Electric Utilities,"Atlanta, Georgia",,92122,
+EQT-538FDD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,LUV,Southwest Airlines,reports,Industrials,Airlines,"Dallas, Texas",01/07/1994,92380,
+EQT-3E52FE,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SPGI,"S&P Global, Inc.",reports,Financials,Financial Exchanges & Data,"New York, New York",,64040,
+EQT-5FA0F9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SWK,Stanley Black & Decker,reports,Industrials,Industrial Machinery,"New Britain, Connecticut",30/09/1982,93556,
+EQT-DAA3F6,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,SBUX,Starbucks Corp.,reports,Consumer Discretionary,Restaurants,"Seattle, Washington",,829224,1971
+EQT-B7C61C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,STT,State Street Corp.,reports,Financials,Asset Management & Custody Banks,"Boston, Massachusetts",,93751,
+EQT-DC70C6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SYK,Stryker Corp.,reports,Health Care,Health Care Equipment,"Kalamazoo, Michigan",12/12/2000,310764,
+EQT-725DE2,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,STI,SunTrust Banks,reports,Financials,Regional Banks,"Atlanta, Georgia",31/05/1988,750556,
+EQT-E55D17,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SIVB,SVB Financial,reports,Financials,Regional Banks,"Santa Clara, California",19/03/2018,719739,
+EQT-702D8C,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,SYMC,Symantec Corp.,reports,Information Technology,Application Software,"Mountain View, California",25/03/2003,849399,
+EQT-C26234,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SYF,Synchrony Financial,reports,Financials,Consumer Finance,"Stamford, Connecticut",18/11/2015,1601712,
+EQT-0A7EB1,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,SNPS,Synopsys Inc.,reports,Information Technology,Application Software,"Mountain View, California",16/03/2017,883241,
+EQT-EC14AD,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,SYY,Sysco Corp.,reports,Consumer Staples,Food Distributors,"Houston, Texas",31/12/1986,96021,
+EQT-9BA38C,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,TMUS,T-Mobile US,reports,Communication Services,Wireless Telecommunication Services,"Bellevue, Washington",15/07/2019,1283699,
+EQT-EEAA95,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TROW,T. Rowe Price Group,reports,Financials,Asset Management & Custody Banks,"Baltimore, Maryland",,1113169,1937
+EQT-1E3FBA,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,TTWO,Take-Two Interactive,reports,Communication Services,Interactive Home Entertainment,"New York, New York",19/03/2018,946581,
+EQT-1AEED5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TPR,"Tapestry, Inc.",reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",,1116132,2017
+EQT-EEE7A4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TGT,Target Corp.,reports,Consumer Discretionary,General Merchandise Stores,"Minneapolis, Minnesota",31/12/1976,27419,
+EQT-04C6CB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TEL,TE Connectivity Ltd.,reports,Information Technology,Electronic Manufacturing Services,"Schaffhausen, Switzerland",17/10/2011,1385157,
+EQT-94E6C8,Company,GMT Standard Time,Digital Contact Exchange,DC Clients,08:00:00,16:30:00,FTI,TechnipFMC,reports,Energy,Oil & Gas Equipment & Services,"London, United Kingdom",05/06/2009,1681459,
+EQT-0355AD,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,TFX,Teleflex,reports,Health Care,Health Care Equipment,"Wayne, Pennsylvania",18/01/2019,96943,1943
+EQT-019D83,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,TXN,Texas Instruments,reports,Information Technology,Semiconductors,"Dallas, Texas",,97476,1930
+EQT-A1F000,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TXT,Textron Inc.,reports,Industrials,Aerospace & Defense,"Providence, Rhode Island",31/12/1978,217346,
+EQT-EC9E55,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TMO,Thermo Fisher Scientific,reports,Health Care,Health Care Equipment,"Waltham, Massachusetts",,97745,2006
+EQT-61796E,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TIF,Tiffany & Co.,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",21/06/2000,98246,
+EQT-83E62B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TWTR,"Twitter, Inc.",reports,Communication Services,Interactive Media & Services,"San Francisco, California",07/06/2018,1418091,
+EQT-CC67B1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TJX,TJX Companies Inc.,reports,Consumer Discretionary,Apparel Retail,"Framingham, Massachusetts",30/09/1985,109198,
+EQT-B1B314,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TMK,Torchmark Corp.,reports,Financials,Life & Health Insurance,"McKinney, Texas",30/04/1989,320335,
+EQT-EFA090,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TSS,Total System Services,reports,Information Technology,Internet Software & Services,"Columbus, Georgia",02/01/2008,721683,
+EQT-2933CC,Company,GMT Standard Time,London Stock Exchange,FTSE 100,08:00:00,16:30:00,TSCO,Tractor Supply Company,reports,Consumer Discretionary,Specialty Stores,"Brentwood, Tennessee",24/01/2014,916365,
+EQT-CFB1A7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TDG,TransDigm Group,reports,Industrials,Aerospace & Defense,"Cleveland, Ohio",03/06/2016,1260221,
+EQT-200850,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TRV,The Travelers Companies Inc.,reports,Financials,Property & Casualty Insurance,"New York, New York",21/08/2002,86312,
+EQT-CBE398,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,TRIP,TripAdvisor,reports,Communication Services,Interactive Media & Services,"Newton, Massachusetts",21/12/2011,1526520,
+EQT-29DE3B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,TSN,Tyson Foods,reports,Consumer Staples,Packaged Foods & Meats,"Springdale, Arkansas",,100493,
+EQT-0C2554,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UDR,"UDR, Inc.",reports,Real Estate,Residential REITs,"Highlands Ranch, Colorado",07/03/2016,74208,
+EQT-403BA9,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,ULTA,Ulta Beauty,reports,Consumer Discretionary,Specialty Stores,"Bolingbrook, Illinois",18/04/2016,1403568,
+EQT-0BB27F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,USB,U.S. Bancorp,reports,Financials,Diversified Banks,"Minneapolis, Minnesota",,36104,1968
+EQT-FD2B42,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UAA,Under Armour Class A,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",25/03/2016,1336917,
+EQT-DCDCDB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UA,Under Armour Class C,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",01/05/2014,1336917,
+EQT-ED1C05,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UNP,Union Pacific Corp,reports,Industrials,Railroads,"Omaha, Nebraska",,100885,
+EQT-F85FC0,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UAL,United Airlines Holdings,reports,Industrials,Airlines,"Chicago, Illinois",03/09/2015,100517,
+EQT-90FD3C,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UNH,United Health Group Inc.,reports,Health Care,Managed Health Care,"Minnetonka, Minnesota",01/07/1994,731766,
+EQT-B718EB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UPS,United Parcel Service,reports,Industrials,Air Freight & Logistics,"Atlanta, Georgia",22/07/2002,1090727,
+EQT-AEE691,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,URI,"United Rentals, Inc.",reports,Industrials,Trading Companies & Distributors,"Stamford, Connecticut",20/09/2014,1067701,
+EQT-14D416,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UTX,United Technologies,reports,Industrials,Aerospace & Defense,"Hartford, Connecticut",,101829,
+EQT-DB9C97,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UHS,"Universal Health Services, Inc.",reports,Health Care,Health Care Facilities,"King of Prussia, Pennsylvania",20/09/2014,352915,
+EQT-B2AD5A,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,UNM,Unum Group,reports,Financials,Life & Health Insurance,"Chattanooga, Tennessee",01/03/1994,5513,
+EQT-F6B6DB,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VFC,V.F. Corp.,reports,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Greensboro, North Carolina",30/06/1979,103379,
+EQT-022289,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VLO,Valero Energy,reports,Energy,Oil & Gas Refining & Marketing,"San Antonio, Texas",,1035002,1980
+EQT-2E0685,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VAR,Varian Medical Systems,reports,Health Care,Health Care Equipment,"Palo Alto, California",12/02/2007,203527,
+EQT-384602,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VTR,Ventas Inc,reports,Real Estate,Health Care REITs,"Chicago, Illinois",04/03/2009,740260,
+EQT-6564E9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VRSN,Verisign Inc.,reports,Information Technology,Internet Services & Infrastructure,"Dulles, Virginia",01/02/2006,1014473,
+EQT-1027D8,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,VRSK,Verisk Analytics,reports,Industrials,Research & Consulting Services,"Jersey City, New Jersey",08/10/2015,1442145,
+EQT-C5BFC0,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VZ,Verizon Communications,reports,Communication Services,Integrated Telecommunication Services,"New York, New York",30/11/1983,732712,
+EQT-AEC40B,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,VRTX,Vertex Pharmaceuticals Inc,reports,Health Care,Biotechnology,"Cambridge, Massachusetts",23/09/2013,875320,
+EQT-51EC59,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VIAB,Viacom Inc.,reports,Communication Services,Movies & Entertainment,"New York, New York",,1339947,
+EQT-5228B7,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,V,Visa Inc.,reports,Information Technology,IT Services,"San Francisco, California",21/12/2009,1403161,
+EQT-74A026,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VNO,Vornado Realty Trust,reports,Real Estate,Office REITs,"New York, New York",,899689,
+EQT-F9F0A6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,VMC,Vulcan Materials,reports,Materials,Construction Materials,"Birmingham, Alabama",30/06/1999,1396009,
+EQT-F8BBB9,Company,Eastern Standard Time,New York Stock Exchange,NYSE COMPOSITE,09:30:00,16:30:00,WAB,Wabtec Corporation,reports,Industrials,Construction Machinery & Heavy Trucks,"Wilmerding, Pennsylvania",27/02/2019,943452,
+EQT-C9905B,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WMT,Walmart,reports,Consumer Staples,Hypermarkets & Super Centers,"Bentonville, Arkansas",31/08/1982,104169,
+EQT-9BF474,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,WBA,Walgreens Boots Alliance,reports,Consumer Staples,Drug Retail,"Deerfield, Illinois",31/12/1979,1618921,
+EQT-166412,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,DIS,The Walt Disney Company,reports,Communication Services,Movies & Entertainment,"Burbank, California",30/06/1976,1001039,
+EQT-8A9588,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WM,Waste Management Inc.,reports,Industrials,Environmental & Facilities Services,"Houston, Texas",,823768,1968
+EQT-EC3AA4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WAT,Waters Corporation,reports,Health Care,Health Care Distributors,"Milford, Massachusetts",,1000697,1958
+EQT-A12E39,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WEC,Wec Energy Group Inc,reports,Utilities,Electric Utilities,"Milwaukee, Wisconsin",31/10/2008,783325,
+EQT-001E7F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WCG,WellCare,reports,Health Care,Managed Health Care,"Tampa, Florida",1985,1279363,
+EQT-A15032,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WFC,Wells Fargo,reports,Financials,Diversified Banks,"San Francisco, California",30/06/1976,72971,
+EQT-0E6028,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WELL,Welltower Inc.,reports,Real Estate,Health Care REITs,"Toledo, Ohio",30/01/2009,766704,
+EQT-C0E7AB,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,WDC,Western Digital,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Irvine, California",01/07/2009,106040,
+EQT-62644F,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WU,Western Union Co,reports,Information Technology,Internet Software & Services,"Englewood, Colorado",,1365135,1851
+EQT-3685F9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WRK,WestRock,reports,Materials,Paper Packaging,"Richmond, Virginia",,1636023,
+EQT-C6B9A3,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WY,Weyerhaeuser,reports,Real Estate,Specialized REITS,"Federal Way, Washington",,106535,
+EQT-F715B4,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WHR,Whirlpool Corp.,reports,Consumer Discretionary,Household Appliances,"Benton Harbor, Michigan",,106640,1911
+EQT-6D6B63,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WMB,Williams Cos.,reports,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",31/03/1975,107263,
+EQT-F246A9,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WLTW,Willis Towers Watson,reports,Financials,Insurance Brokers,"London, United Kingdom",05/01/2016,1140536,
+EQT-8041D6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,WYNN,Wynn Resorts Ltd,reports,Consumer Discretionary,Casinos & Gaming,"Paradise, Nevada",14/11/2008,1174922,
+EQT-FF3CE0,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,XEL,Xcel Energy Inc,reports,Utilities,Multi-Utilities,"Minneapolis, Minnesota",,72903,1909
+EQT-4F8CB5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,XRX,Xerox,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Norwalk, Connecticut",,108772,1906
+EQT-B988C2,Company,Eastern Standard Time,NASDAQ,NASDAQ 100,09:30:00,16:30:00,XLNX,Xilinx,reports,Information Technology,Semiconductors,"San Jose, California",08/11/1999,743988,
+EQT-BDC1D6,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,XYL,Xylem Inc.,reports,Industrials,Industrial Machinery,"White Plains, New York",01/11/2011,1524472,
+EQT-AB4681,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,YUM,Yum! Brands Inc,reports,Consumer Discretionary,Restaurants,"Louisville, Kentucky",06/10/1997,1041061,
+EQT-47F94D,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ZBH,Zimmer Biomet Holdings,reports,Health Care,Health Care Equipment,"Warsaw, Indiana",07/08/2001,1136869,
+EQT-BD78E1,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ZION,Zions Bancorp,reports,Financials,Regional Banks,"Salt Lake City, Utah",22/06/2001,109380,
+EQT-B41CE5,Company,Eastern Standard Time,S&P Dow Jones Indices,S&P 500,09:30:00,16:30:00,ZTS,Zoetis,reports,Health Care,Pharmaceuticals,"Florham Park, New Jersey",21/06/2013,1555280,
