@@ -1,0 +1,1210 @@
+<?xml version="1.0" ?>
+<root>
+  <definitions/>
+  <key name="$schema">http://json-schema.org/draft-07/schema#</key>
+  <key name="$id">http://example.com/root.json</key>
+  <type>object</type>
+  <title>The Root Schema</title>
+  <required>
+    <item>services</item>
+    <item>products</item>
+    <item>keyPeople</item>
+    <item>subsidiaries</item>
+    <item>divisions</item>
+    <item>uid</item>
+    <item>dateTimeAddedToKG</item>
+    <item>dateTimeUpdatedInKG</item>
+    <item>name</item>
+    <item>type</item>
+  </required>
+  <properties>
+    <services>
+      <key name="$id">#/properties/services</key>
+      <type>array</type>
+      <title>Services</title>
+      <description>A collection of Services related to the Entity</description>
+      <default/>
+      <items>
+        <key name="$id">#/properties/services/items</key>
+        <type>object</type>
+        <title>The Items Schema</title>
+        <properties>
+          <uid>
+            <key name="$id">#/properties/services/items/properties/uid</key>
+            <type>null</type>
+            <title>UID</title>
+            <description>A unique identifier for the Service</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+          </uid>
+          <dateTimeAddedToKG>
+            <key name="$id">#/properties/services/items/properties/dateTimeAddedToKG</key>
+            <type>string</type>
+            <title>DateTime Added to KG</title>
+            <description>The DateTime the Service was added to the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:28:12.687000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeAddedToKG>
+          <aliases>
+            <key name="$id">#/properties/services/items/properties/aliases</key>
+            <type>array</type>
+            <title>Aliases</title>
+            <description>Alternative names for the Service</description>
+            <items>
+              <key name="$id">#/properties/services/items/properties/aliases/items</key>
+              <type>string</type>
+              <title>The Items Schema</title>
+              <default/>
+              <examples>
+                <item>Rentalcars.com</item>
+              </examples>
+              <pattern>^(.*)$</pattern>
+            </items>
+          </aliases>
+          <relationEndDate>
+            <key name="$id">#/properties/services/items/properties/relationEndDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the End Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/services/items/properties/relationEndDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>2017-01-01</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/services/items/properties/relationEndDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/services/items/properties/relationEndDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/services/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2017</item>
+                    <item>1</item>
+                    <item>-1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationEndDate>
+          <dateTimeUpdatedInKG>
+            <key name="$id">#/properties/services/items/properties/dateTimeUpdatedInKG</key>
+            <type>string</type>
+            <title>DateTime Updated in KG</title>
+            <description>The DateTime the Service was updated in the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:28:12.687000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeUpdatedInKG>
+          <name>
+            <key name="$id">#/properties/services/items/properties/name</key>
+            <type>string</type>
+            <title>Name</title>
+            <description>The name of the Service</description>
+            <default/>
+            <examples>
+              <item>Rentalcars.com</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </name>
+          <relationStartDate>
+            <key name="$id">#/properties/services/items/properties/relationStartDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the Start Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/services/items/properties/relationStartDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>2017-01-01</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/services/items/properties/relationStartDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/services/items/properties/relationStartDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/services/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2017</item>
+                    <item>1</item>
+                    <item>-1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationStartDate>
+        </properties>
+        <required>
+          <item>dateTimeAddedToKG</item>
+          <item>dateTimeUpdatedInKG</item>
+          <item>name</item>
+        </required>
+      </items>
+    </services>
+    <products>
+      <key name="$id">#/properties/products</key>
+      <type>array</type>
+      <title>Products</title>
+      <description>A collection of Products related to the Entity</description>
+      <default/>
+      <items>
+        <key name="$id">#/properties/products/items</key>
+        <type>object</type>
+        <title>The Items Schema</title>
+        <properties>
+          <subGroupName>
+            <key name="$id">#/properties/products/items/properties/subGroupName</key>
+            <type>string</type>
+            <title>Sub-group Name</title>
+            <description>The parent product sub-group name</description>
+            <default/>
+            <examples>
+              <item>Apple Mouse</item>
+            </examples>
+          </subGroupName>
+          <uid>
+            <key name="$id">#/properties/products/items/properties/uid</key>
+            <type>string</type>
+            <title>UID</title>
+            <description>A unique identifier for the Product</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+          </uid>
+          <dateTimeAddedToKG>
+            <key name="$id">#/properties/products/items/properties/DateTimeAddedToKG</key>
+            <type>string</type>
+            <title>DateTime Added to KG</title>
+            <description>The DateTime the Service was added to the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:28:12.687000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeAddedToKG>
+          <groupName>
+            <key name="$id">#/properties/products/items/properties/groupName</key>
+            <type>null</type>
+            <title>Group Name</title>
+            <description>The parent product group name</description>
+            <default/>
+            <examples>
+              <item>Apple Accessories</item>
+            </examples>
+          </groupName>
+          <aliases>
+            <key name="$id">#/properties/products/items/properties/aliases</key>
+            <type>array</type>
+            <title>Aliases</title>
+            <description>Alternative names for the Product</description>
+            <items>
+              <key name="$id">#/properties/products/items/properties/aliases/items</key>
+              <type>string</type>
+              <title>The Items Schema</title>
+              <default/>
+              <examples>
+                <item>Booking Holdings OpenTable</item>
+              </examples>
+              <pattern>^(.*)$</pattern>
+            </items>
+          </aliases>
+          <relationEndDate>
+            <key name="$id">#/properties/products/items/properties/relationEndDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the End Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/products/items/properties/relationEndDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>2017-01-01</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/products/items/properties/relationEndDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/products/items/properties/relationEndDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/products/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2017</item>
+                    <item>1</item>
+                    <item>-1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationEndDate>
+          <dateTimeUpdatedInKG>
+            <key name="$id">#/properties/products/items/properties/dateTimeUpdatedInKG</key>
+            <type>string</type>
+            <title>DateTime Updated in KG</title>
+            <description>The DateTime the Product was updated in the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:28:31.025000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeUpdatedInKG>
+          <name>
+            <key name="$id">#/properties/products/items/properties/name</key>
+            <type>string</type>
+            <title>Name</title>
+            <description>The name of the Product</description>
+            <default/>
+            <examples>
+              <item>Booking Holdings OpenTable</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </name>
+          <relationStartDate>
+            <key name="$id">#/properties/products/items/properties/relationStartDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the Start Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/products/items/properties/relationStartDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/products/items/properties/relationStartDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/products/items/properties/relationStartDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/products/items/properties/relationStartDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>1998</item>
+                    <item>7</item>
+                    <item>2</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationStartDate>
+        </properties>
+        <required>
+          <item>dateTimeAddedToKG</item>
+          <item>dateTimeUpdatedInKG</item>
+          <item>name</item>
+        </required>
+      </items>
+    </products>
+    <keyPeople>
+      <key name="$id">#/properties/keyPeople</key>
+      <type>array</type>
+      <title>Key People</title>
+      <description>A collection of Key People related to the Entity</description>
+      <default/>
+      <items>
+        <key name="$id">#/properties/keyPeople/items</key>
+        <type>object</type>
+        <title>The Items Schema</title>
+        <properties>
+          <uid>
+            <key name="$id">#/properties/keyPeople/items/properties/uid</key>
+            <type>null</type>
+            <title>UID</title>
+            <description>A unique identifier for the Person</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+          </uid>
+          <dateTimeAddedToKG>
+            <key name="$id">#/properties/keyPeople/items/properties/DateTimeAddedToKG</key>
+            <type>string</type>
+            <description>The DateTime the Person was added to the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:28:12.687000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeAddedToKG>
+          <aliases>
+            <key name="$id">#/properties/keyPeople/items/properties/aliases</key>
+            <type>array</type>
+            <title>Aliases</title>
+            <description>Alternative names for the Person</description>
+            <items>
+              <key name="$id">#/properties/keyPeople/items/properties/aliases/items</key>
+              <type>string</type>
+              <title>The Items Schema</title>
+              <default/>
+              <examples>
+                <item>David I. Goulden</item>
+                <item>David Goulden</item>
+              </examples>
+              <pattern>^(.*)$</pattern>
+            </items>
+          </aliases>
+          <relationEndDate>
+            <key name="$id">#/properties/keyPeople/items/properties/relationEndDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the End Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/keyPeople/items/properties/relationEndDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/keyPeople/items/properties/relationEndDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/keyPeople/items/properties/relationEndDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/keyPeople/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2018</item>
+                    <item>3</item>
+                    <item>-1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationEndDate>
+          <dateTimeUpdatedInKG>
+            <key name="$id">#/properties/keyPeople/items/properties/dateTimeUpdatedInKG</key>
+            <type>string</type>
+            <title>DateTime Updated in KG</title>
+            <description>The DateTime the KeyPerson was updated in the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:26:25.919000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeUpdatedInKG>
+          <name>
+            <key name="$id">#/properties/keyPeople/items/properties/name</key>
+            <type>string</type>
+            <title>Name</title>
+            <description>The name of the Person</description>
+            <default/>
+            <examples>
+              <item>David Goulden</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </name>
+          <relationStartDate>
+            <key name="$id">#/properties/keyPeople/items/properties/relationStartDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the Start Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/keyPeople/items/properties/relationStartDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/keyPeople/items/properties/relationStartDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/keyPeople/items/properties/relationStartDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/keyPeople/items/properties/relationStartDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2018</item>
+                    <item>3</item>
+                    <item>-1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationStartDate>
+          <position>
+            <key name="$id">#/properties/keyPeople/items/properties/position</key>
+            <type>string</type>
+            <title>Position</title>
+            <description>The position held by the Person</description>
+            <default/>
+            <examples>
+              <item>Chief Financial Officer</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </position>
+        </properties>
+        <required>
+          <item>dateTimeAddedToKG</item>
+          <item>dateTimeUpdatedInKG</item>
+          <item>name</item>
+          <item>relationStartDate</item>
+          <item>position</item>
+        </required>
+      </items>
+    </keyPeople>
+    <subsidiaries>
+      <key name="$id">#/properties/subsidiaries</key>
+      <type>array</type>
+      <title>Subsidiaries</title>
+      <description>A collection of Subsidiaries related to the Entity</description>
+      <default/>
+      <items>
+        <key name="$id">#/properties/subsidiaries/items</key>
+        <type>object</type>
+        <title>The Items Schema</title>
+        <properties>
+          <uid>
+            <key name="$id">#/properties/subsidiaries/items/properties/uid</key>
+            <type>string</type>
+            <title>UID</title>
+            <description>A unique identifier for the Subsidiary</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </uid>
+          <dateTimeAddedToKG>
+            <key name="$id">#/properties/subsidiaries/items/properties/DateTimeAddedToKG</key>
+            <type>string</type>
+            <title>DateTime Added to KG</title>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:22:50.055000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeAddedToKG>
+          <aliases>
+            <key name="$id">#/properties/subsidiaries/items/properties/aliases</key>
+            <type>array</type>
+            <title>Aliases</title>
+            <description>Alternative names for the Subsidiary</description>
+            <items>
+              <key name="$id">#/properties/subsidiaries/items/properties/aliases/items</key>
+              <type>string</type>
+              <title>The Items Schema</title>
+              <default/>
+              <examples>
+                <item>TenMarks Education Inc</item>
+              </examples>
+              <pattern>^(.*)$</pattern>
+            </items>
+          </aliases>
+          <relationEndDate>
+            <key name="$id">#/properties/subsidiaries/items/properties/relationEndDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the End Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationEndDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationEndDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2019</item>
+                    <item>6</item>
+                    <item>30</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationEndDate>
+          <dateTimeUpdatedInKG>
+            <key name="$id">#/properties/subsidiaries/items/properties/dateTimeUpdatedInKG</key>
+            <type>string</type>
+            <title>DateTime Updated in KG</title>
+            <description>The DateTime the Subsidiary was updated in the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:22:50.385000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeUpdatedInKG>
+          <name>
+            <key name="$id">#/properties/subsidiaries/items/properties/name</key>
+            <type>string</type>
+            <title>Name</title>
+            <description>The name of the Subsidiary</description>
+            <default/>
+            <examples>
+              <item>TenMarks Education Inc</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </name>
+          <relationStartDate>
+            <key name="$id">#/properties/subsidiaries/items/properties/relationStartDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the Start Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationStartDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationStartDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2013</item>
+                    <item>10</item>
+                    <item>1</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationStartDate>
+          <isin>
+            <key name="$id">#/properties/subsidiaries/items/properties/isin</key>
+            <type>null</type>
+            <title>ISIN</title>
+            <description>The International Securities Identification Number of the Subsidiary</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+          </isin>
+        </properties>
+        <required>
+          <item>dateTimeAddedToKG</item>
+          <item>dateTimeUpdatedInKG</item>
+          <item>name</item>
+        </required>
+      </items>
+    </subsidiaries>
+    <divisions>
+      <key name="$id">#/properties/divisions</key>
+      <type>array</type>
+      <title>The Divisions Schema</title>
+      <items>
+        <key name="$id">#/properties/divisions/items</key>
+        <type>object</type>
+        <title>The Items Schema</title>
+        <properties>
+          <uid>
+            <key name="$id">#/properties/divisions/items/properties/uid</key>
+            <type>string</type>
+            <title>UID</title>
+            <description>A unique identifier for the Division</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </uid>
+          <dateTimeAddedToKG>
+            <key name="$id">#/properties/divisions/items/properties/DateTimeAddedToKG</key>
+            <type>string</type>
+            <title>DateTime Added to KG</title>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:19:59.717000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeAddedToKG>
+          <aliases>
+            <key name="$id">#/properties/divisions/items/properties/aliases</key>
+            <type>array</type>
+            <title>Aliases</title>
+            <description>Alternative names for the Division</description>
+            <items>
+              <key name="$id">#/properties/divisions/items/properties/aliases/items</key>
+              <type>string</type>
+              <title>The Items Schema</title>
+              <default/>
+              <examples>
+                <item>Amazon Game Studios</item>
+              </examples>
+              <pattern>^(.*)$</pattern>
+            </items>
+          </aliases>
+          <relationEndDate>
+            <key name="$id">#/properties/divisions/items/properties/relationEndDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the End Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/divisions/items/properties/relationEndDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/divisions/items/properties/relationEndDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/divisions/items/properties/relationEndDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/divisions/items/properties/relationEndDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2012</item>
+                    <item>8</item>
+                    <item>7</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationEndDate>
+          <dateTimeUpdatedInKG>
+            <key name="$id">#/properties/divisions/items/properties/dateTimeUpdatedInKG</key>
+            <type>string</type>
+            <title>DateTime Updated in KG</title>
+            <description>The DateTime the Division was updated in the KnowledgeGraph</description>
+            <default/>
+            <examples>
+              <item>2019-08-14T17:19:59.749000000Z</item>
+            </examples>
+            <format>date-time</format>
+            <pattern>^(.*)$</pattern>
+          </dateTimeUpdatedInKG>
+          <name>
+            <key name="$id">#/properties/divisions/items/properties/name</key>
+            <type>string</type>
+            <title>Name</title>
+            <description>The name of the Division</description>
+            <default/>
+            <examples>
+              <item>Amazon Game Studios</item>
+            </examples>
+            <pattern>^(.*)$</pattern>
+          </name>
+          <relationStartDate>
+            <key name="$id">#/properties/divisions/items/properties/relationStartDate</key>
+            <type>object</type>
+            <title>A Relational Date object containing constructs of the Start Date</title>
+            <required>
+              <item>date</item>
+              <item>isAssumed</item>
+              <item>dateParts</item>
+            </required>
+            <properties>
+              <date>
+                <key name="$id">#/properties/divisions/items/properties/relationStartDate/properties/date</key>
+                <type>string</type>
+                <title>Date</title>
+                <description>The fully qualified date of the relationship with it’s parent</description>
+                <default/>
+                <examples>
+                  <item>1998-07-02</item>
+                </examples>
+                <format>date</format>
+                <pattern>^(.*)$</pattern>
+              </date>
+              <isAssumed>
+                <key name="$id">#/properties/divisions/items/properties/relationStartDate/properties/isAssumed</key>
+                <type>boolean</type>
+                <title>Is Assumed</title>
+                <description>Whether the Date is assumed and not from a complete date.</description>
+                <default>False</default>
+                <examples>
+                  <item>True</item>
+                  <item>False</item>
+                </examples>
+              </isAssumed>
+              <dateParts>
+                <key name="$id">#/properties/divisions/items/properties/relationStartDate/properties/dateParts</key>
+                <type>array</type>
+                <title>Date Parts</title>
+                <description>An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.</description>
+                <items>
+                  <key name="$id">#/properties/divisions/items/properties/relationStartDate/properties/dateParts/items</key>
+                  <type>integer</type>
+                  <title>The Items Schema</title>
+                  <default>0</default>
+                  <examples>
+                    <item>2012</item>
+                    <item>8</item>
+                    <item>7</item>
+                  </examples>
+                </items>
+              </dateParts>
+            </properties>
+          </relationStartDate>
+          <isin>
+            <key name="$id">#/properties/divisions/items/properties/isin</key>
+            <type>null</type>
+            <title>ISIN</title>
+            <description>The International Securities Identification Number of the Division</description>
+            <default/>
+            <examples>
+              <item/>
+            </examples>
+          </isin>
+        </properties>
+        <required>
+          <item>dateTimeAddedToKG</item>
+          <item>dateTimeUpdatedInKG</item>
+          <item>name</item>
+        </required>
+      </items>
+    </divisions>
+    <timeZone>
+      <key name="$id">#/properties/timeZone</key>
+      <type>string</type>
+      <title>TimeZone</title>
+      <description>The TimeZone name of the Entity (default traded instrument)</description>
+      <default/>
+      <examples>
+        <item>Eastern Standard Time</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </timeZone>
+    <exchange>
+      <key name="$id">#/properties/exchange</key>
+      <type>string</type>
+      <title>Exchange</title>
+      <description>The Exchange name of the Entity (default traded instrument)</description>
+      <default/>
+      <examples>
+        <item>NASDAQ</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </exchange>
+    <marketIndex>
+      <key name="$id">#/properties/marketIndex</key>
+      <type>string</type>
+      <title>Market Index</title>
+      <description>The Market Index name of the Entity (default traded instrument)</description>
+      <default/>
+      <examples>
+        <item>NASDAQ 100</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </marketIndex>
+    <localTimeOpens>
+      <key name="$id">#/properties/localTimeOpens</key>
+      <type>string</type>
+      <title>Local Time Opens</title>
+      <description>The local open time of trading of the default exchange</description>
+      <default/>
+      <examples>
+        <item>09:30:00</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </localTimeOpens>
+    <localTimeCloses>
+      <key name="$id">#/properties/localTimeCloses</key>
+      <type>string</type>
+      <title>Local Time Closes</title>
+      <description>The local close time of trading of the default exchange</description>
+      <default/>
+      <examples>
+        <item>16:30:00</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </localTimeCloses>
+    <aliases>
+      <key name="$id">#/properties/aliases</key>
+      <type>array</type>
+      <title>Aliases</title>
+      <description>Alternative names for the Entity</description>
+      <items>
+        <key name="$id">#/properties/aliases/items</key>
+        <type>string</type>
+        <title>The Items Schema</title>
+        <default/>
+        <examples>
+          <item>Amazon Inc</item>
+          <item>Amazon.com Inc</item>
+          <item>Amazon</item>
+          <item>Amazon.com</item>
+        </examples>
+        <pattern>^(.*)$</pattern>
+      </items>
+    </aliases>
+    <symbol>
+      <key name="$id">#/properties/symbol</key>
+      <type>string</type>
+      <title>The default traded instrument symbol</title>
+      <default/>
+      <examples>
+        <item>AMZN</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </symbol>
+    <uid>
+      <key name="$id">#/properties/uid</key>
+      <type>string</type>
+      <title>UID</title>
+      <description>A unique identifier for the Entity</description>
+      <default/>
+      <examples>
+        <item>EQT-A438AE</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </uid>
+    <dateTimeAddedToKG>
+      <key name="$id">#/properties/DateTimeAddedToKG</key>
+      <type>string</type>
+      <title>DateTime Added to KG</title>
+      <default/>
+      <examples>
+        <item>2019-08-14T17:17:08.133000000Z</item>
+      </examples>
+      <format>date-time</format>
+      <pattern>^(.*)$</pattern>
+    </dateTimeAddedToKG>
+    <dateTimeUpdatedInKG>
+      <key name="$id">#/properties/dateTimeUpdatedInKG</key>
+      <type>string</type>
+      <title>DateTime Updated in KG</title>
+      <description>The DateTime the Entity was updated in the KnowledgeGraph</description>
+      <default/>
+      <examples>
+        <item>2019-08-14T17:48:07.971000000Z</item>
+      </examples>
+      <format>date-time</format>
+      <pattern>^(.*)$</pattern>
+    </dateTimeUpdatedInKG>
+    <name>
+      <key name="$id">#/properties/name</key>
+      <type>string</type>
+      <title>Name</title>
+      <description>The name of the Entity</description>
+      <default/>
+      <examples>
+        <item>Amazon.com Inc</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </name>
+    <description>
+      <key name="$id">#/properties/description</key>
+      <type>string</type>
+      <title>Description</title>
+      <description>A description/overview of the Entity</description>
+      <default/>
+      <examples>
+        <item>&quot;Amazon.com, Inc., doing business as Amazon (/?�m??z?n/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics�Kindle e-readers, Fire tablets, Fire TV, and Echo�and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.Amazon has separate retail websites for the United States, the United Kingdom and Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India, and Mexico. In 2016, Dutch, Polish, and Turkish language versions of the German Amazon website were also launched.[5][6][7] Amazon also offers international shipping of some of its products to certain other countries.[8] In 2015, Amazon surpassed Walmart as the most valuable retailer in the United States by market capitalization.[9] Amazon is the fourth most valuable public company in the world, the largest Internet company by revenue in the world, and the eighth largest employer in the United States.[10] In 2017, Amazon acquired Whole Foods Market for $13.4 billion, which vastly increased Amazon's presence as a brick-and-mortar retailer.[11] The acquisition was interpreted by some as a direct attempt to challenge Walmart's traditional retail stores.[12] &quot;</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </description>
+    <subSector>
+      <key name="$id">#/properties/subSector</key>
+      <type>string</type>
+      <title>Sub-sector</title>
+      <description>The name of the Sub-sector the Entity is in</description>
+      <default/>
+      <examples>
+        <item>Internet &amp; Direct Marketing Retail</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </subSector>
+    <type>
+      <key name="$id">#/properties/type</key>
+      <type>string</type>
+      <title>Type</title>
+      <default/>
+      <examples>
+        <item>Company</item>
+        <item>Commodity</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </type>
+    <sector>
+      <key name="$id">#/properties/sector</key>
+      <type>string</type>
+      <title>Sector</title>
+      <description>The name of the Sector the Entity is in</description>
+      <default/>
+      <examples>
+        <item>Consumer Discretionary</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </sector>
+    <isin>
+      <key name="$id">#/properties/isin</key>
+      <type>string</type>
+      <title>ISIN</title>
+      <description>The International Securities Identification Number of the Entity</description>
+      <default/>
+      <examples>
+        <item>US0231351067</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </isin>
+    <wikiUrl>
+      <key name="$id">#/properties/wikiUrl</key>
+      <type>string</type>
+      <title>Wiki Url</title>
+      <description>A public link to the Wikipedia page of the Entity</description>
+      <default/>
+      <examples>
+        <item>https://en.wikipedia.org/wiki/Amazon.com</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </wikiUrl>
+    <address>
+      <key name="$id">#/properties/address</key>
+      <type>string</type>
+      <title>Address</title>
+      <description>The address of the Entity headquarters</description>
+      <default/>
+      <examples>
+        <item>410 Terry Avenue North Seattle, WA 98109-5210 United States</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </address>
+    <logoLink>
+      <key name="$id">#/properties/logoLink</key>
+      <type>string</type>
+      <title>Logo Link</title>
+      <description>A public link to an image of the Entity logo</description>
+      <default/>
+      <examples>
+        <item>https://en.wikipedia.org/wiki/File:Amazon_logo_plain.svg</item>
+      </examples>
+      <pattern>^(.*)$</pattern>
+    </logoLink>
+  </properties>
+</root>
