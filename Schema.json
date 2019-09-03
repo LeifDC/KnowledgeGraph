@@ -1,1198 +1,1191 @@
 {
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
+  "$id": "http://alphastream.io/knowledgeGraph.json",
   "type": "object",
   "title": "The Root Schema",
-  "required": [
-    "services",
-    "products",
-    "keyPeople",
-    "subsidiaries",
-    "divisions",
-    "uid",
-    "dateTimeAddedToKG",
-    "dateTimeUpdatedInKG",
-    "name",
-    "type"
-  ],
-  "properties": {
-    "services": {
-      "$id": "#/properties/services",
-      "type": "array",
-      "title": "Services",
-      "description": "A collection of Services related to the Entity",
-      "default": null,
-      "items": {
-        "$id": "#/properties/services/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "dateTimeAddedToKG",
-          "dateTimeUpdatedInKG",
-          "name"
-        ],
-        "properties": {
-          "uid": {
-            "$id": "#/properties/services/items/properties/uid",
-            "type": "null",
-            "title": "UID",
-            "description": "A unique identifier for the Service",
-            "default": null,
-            "examples": [
-              null
-            ]
-          },
-          "dateTimeAddedToKG": {
-            "$id": "#/properties/services/items/properties/dateTimeAddedToKG",
-            "type": "string",
-            "title": "DateTime Added to KG",
-            "description": "The DateTime the Service was added to the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:28:12.687000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "aliases": {
-            "$id": "#/properties/services/items/properties/aliases",
-            "type": "array",
-            "title": "Aliases",
-            "description": "Alternative names for the Service",
-            "items": {
-              "$id": "#/properties/services/items/properties/aliases/items",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "services",
+      "products",
+      "keyPeople",
+      "subsidiaries",
+      "divisions",
+      "uid",
+      "dateTimeAddedToKG",
+      "dateTimeUpdatedInKG",
+      "name",
+      "type"
+    ],
+    "properties": {
+      "services": {
+        "$id": "#/items/properties/services",
+        "type": "array",
+        "title": "Services",
+        "description": "A collection of Services related to the Entity",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/services/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "dateTimeAddedToKG",
+            "dateTimeUpdatedInKG",
+            "name"
+          ],
+          "properties": {
+            "uid": {
+              "$id": "#/items/properties/services/items/properties/uid",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "UID",
+              "description": "A unique identifier for the Service",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "dateTimeAddedToKG": {
+              "$id": "#/items/properties/services/items/properties/dateTimeAddedToKG",
+              "type": "string",
+              "title": "DateTime Added to KG",
+              "description": "The DateTime the Service was added to the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:28:12.687000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "aliases": {
+              "$id": "#/items/properties/services/items/properties/aliases",
+              "type": "array",
+              "title": "Aliases",
+              "description": "Alternative names for the Service",
+              "items": {
+                "$id": "#/items/properties/services/items/properties/aliases/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Rentalcars.com"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "relationEndDate": {
+              "$id": "#/items/properties/services/items/properties/relationEndDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the End Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/services/items/properties/relationEndDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
+                  "examples": [
+                    "2017-01-01"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/services/items/properties/relationEndDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
+                  ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/services/items/properties/relationEndDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/services/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2017,
+                      1,
+                      -1
+                    ]
+                  }
+                }
+              },
+              "default": null
+            },
+            "dateTimeUpdatedInKG": {
+              "$id": "#/items/properties/services/items/properties/dateTimeUpdatedInKG",
+              "type": "string",
+              "title": "DateTime Updated in KG",
+              "description": "The DateTime the Service was updated in the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:28:12.687000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/items/properties/services/items/properties/name",
+              "type": "string",
+              "title": "Name",
+              "description": "The name of the Service",
               "default": "",
               "examples": [
                 "Rentalcars.com"
               ],
               "pattern": "^(.*)$"
-            }
-          },
-          "relationEndDate": {
-            "$id": "#/properties/services/items/properties/relationEndDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the End Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/services/items/properties/relationEndDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "2017-01-01"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/services/items/properties/relationEndDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/services/items/properties/relationEndDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/services/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+            },
+            "relationStartDate": {
+              "$id": "#/items/properties/services/items/properties/relationStartDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the Start Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/services/items/properties/relationStartDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
                   "examples": [
-                    2017,
-                    1,
-                    -1
-                  ]
-                }
-              }
-            }
-          },
-          "dateTimeUpdatedInKG": {
-            "$id": "#/properties/services/items/properties/dateTimeUpdatedInKG",
-            "type": "string",
-            "title": "DateTime Updated in KG",
-            "description": "The DateTime the Service was updated in the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:28:12.687000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "name": {
-            "$id": "#/properties/services/items/properties/name",
-            "type": "string",
-            "title": "Name",
-            "description": "The name of the Service",
-            "default": "",
-            "examples": [
-              "Rentalcars.com"
-            ],
-            "pattern": "^(.*)$"
-          },
-          "relationStartDate": {
-            "$id": "#/properties/services/items/properties/relationStartDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the Start Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/services/items/properties/relationStartDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "2017-01-01"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/services/items/properties/relationStartDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/services/items/properties/relationStartDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/services/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+                    "2017-01-01"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/services/items/properties/relationStartDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
                   "examples": [
-                    2017,
-                    1,
-                    -1
+                    true, false
                   ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/services/items/properties/relationStartDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/services/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2017,
+                      1,
+                      -1
+                    ]
+                  }
                 }
               }
             }
           }
         }
-      }
-    },
-    "products": {
-      "$id": "#/properties/products",
-      "type": "array",
-      "title": "Products",
-      "description": "A collection of Products related to the Entity",
-      "default": null,
-      "items": {
-        "$id": "#/properties/products/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "dateTimeAddedToKG",
-          "dateTimeUpdatedInKG",
-          "name"
-        ],
-        "properties": {
-          "subGroupName": {
-            "$id": "#/properties/products/items/properties/subGroupName",
-            "type": "string",
-            "title": "Sub-group Name",
-            "description": "The parent product sub-group name",
-            "default": null,
-            "examples": [
-              "Apple Mouse"
-            ]
-          },
-          "uid": {
-            "$id": "#/properties/products/items/properties/uid",
-            "type": "string",
-            "title": "UID",
-            "description": "A unique identifier for the Product",
-            "default": null,
-            "examples": [
-              null
-            ]
-          },
-          "dateTimeAddedToKG": {
-            "$id": "#/properties/products/items/properties/DateTimeAddedToKG",
-            "type": "string",
-            "title": "DateTime Added to KG",
-            "description": "The DateTime the Service was added to the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:28:12.687000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "groupName": {
-            "$id": "#/properties/products/items/properties/groupName",
-            "type": "null",
-            "title": "Group Name",
-            "description": "The parent product group name",
-            "default": null,
-            "examples": [
-              "Apple Accessories"
-            ]
-          },
-          "aliases": {
-            "$id": "#/properties/products/items/properties/aliases",
-            "type": "array",
-            "title": "Aliases",
-            "description": "Alternative names for the Product",
-            "items": {
-              "$id": "#/properties/products/items/properties/aliases/items",
+      },
+      "products": {
+        "$id": "#/items/properties/products",
+        "type": "array",
+        "title": "Products",
+        "description": "A collection of Products related to the Entity",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/products/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "dateTimeAddedToKG",
+            "dateTimeUpdatedInKG",
+            "name"
+          ],
+          "properties": {
+            "subGroupName": {
+              "$id": "#/items/properties/products/items/properties/subGroupName",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "Sub-group Name",
+              "description": "The parent product sub-group name",
+              "default": null,
+              "examples": [
+                "Apple Mouse"
+              ]
+            },
+            "uid": {
+              "$id": "#/items/properties/products/items/properties/uid",
+              "type": "string",
+              "title": "UID",
+              "description": "A unique identifier for the Product",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "dateTimeAddedToKG": {
+              "$id": "#/items/properties/products/items/properties/DateTimeAddedToKG",
+              "type": "string",
+              "title": "DateTime Added to KG",
+              "description": "The DateTime the Service was added to the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:28:12.687000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "groupName": {
+              "$id": "#/items/properties/products/items/properties/groupName",
+              "type": "string",
+              "title": "Group Name",
+              "description": "The parent product group name",
+              "default": null,
+              "examples": [
+                "Apple Accessories"
+              ]
+            },
+            "aliases": {
+              "$id": "#/items/properties/products/items/properties/aliases",
+              "type": "array",
+              "title": "Aliases",
+              "description": "Alternative names for the Product",
+              "items": {
+                "$id": "#/items/properties/products/items/properties/aliases/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Booking Holdings OpenTable"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "relationEndDate": {
+              "$id": "#/items/properties/products/items/properties/relationEndDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the End Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/products/items/properties/relationEndDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
+                  "examples": [
+                    "2017-01-01"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/products/items/properties/relationEndDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
+                  ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/products/items/properties/relationEndDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/products/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2017,
+                      1,
+                      -1
+                    ]
+                  }
+                }
+              }
+            },
+            "dateTimeUpdatedInKG": {
+              "$id": "#/items/properties/products/items/properties/dateTimeUpdatedInKG",
+              "type": "string",
+              "title": "DateTime Updated in KG",
+              "description": "The DateTime the Product was updated in the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:28:31.025000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/items/properties/products/items/properties/name",
+              "type": "string",
+              "title": "Name",
+              "description": "The name of the Product",
               "default": "",
               "examples": [
                 "Booking Holdings OpenTable"
               ],
               "pattern": "^(.*)$"
-            }
-          },
-          "relationEndDate": {
-            "$id": "#/properties/products/items/properties/relationEndDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the End Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/products/items/properties/relationEndDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "2017-01-01"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/products/items/properties/relationEndDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/products/items/properties/relationEndDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/products/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+            },
+            "relationStartDate": {
+              "$id": "#/items/properties/products/items/properties/relationStartDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the Start Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/products/items/properties/relationStartDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
                   "examples": [
-                    2017,
-                    1,
-                    -1
-                  ]
-                }
-              }
-            }
-          },
-          "dateTimeUpdatedInKG": {
-            "$id": "#/properties/products/items/properties/dateTimeUpdatedInKG",
-            "type": "string",
-            "title": "DateTime Updated in KG",
-            "description": "The DateTime the Product was updated in the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:28:31.025000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "name": {
-            "$id": "#/properties/products/items/properties/name",
-            "type": "string",
-            "title": "Name",
-            "description": "The name of the Product",
-            "default": "",
-            "examples": [
-              "Booking Holdings OpenTable"
-            ],
-            "pattern": "^(.*)$"
-          },
-          "relationStartDate": {
-            "$id": "#/properties/products/items/properties/relationStartDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the Start Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/products/items/properties/relationStartDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/products/items/properties/relationStartDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/products/items/properties/relationStartDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/products/items/properties/relationStartDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/products/items/properties/relationStartDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
                   "examples": [
-                    1998,
-                    7,
-                    2
+                    true, false
                   ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/products/items/properties/relationStartDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/products/items/properties/relationStartDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      1998,
+                      7,
+                      2
+                    ]
+                  }
                 }
               }
             }
           }
         }
-      }
-    },
-    "keyPeople": {
-      "$id": "#/properties/keyPeople",
-      "type": "array",
-      "title": "Key People",
-      "description": "A collection of Key People related to the Entity",
-      "default": null,
-      "items": {
-        "$id": "#/properties/keyPeople/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "dateTimeAddedToKG",
-          "dateTimeUpdatedInKG",
-          "name",
-          "relationStartDate",
-          "position"
-        ],
-        "properties": {
-          "uid": {
-            "$id": "#/properties/keyPeople/items/properties/uid",
-            "type": "null",
-            "title": "UID",
-            "description": "A unique identifier for the Person",
-            "default": null,
-            "examples": [
-              null
-            ]
-          },
-          "dateTimeAddedToKG": {
-            "$id": "#/properties/keyPeople/items/properties/DateTimeAddedToKG",
-            "type": "string",
-            "description": "The DateTime the Person was added to the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:28:12.687000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "aliases": {
-            "$id": "#/properties/keyPeople/items/properties/aliases",
-            "type": "array",
-            "title": "Aliases",
-            "description": "Alternative names for the Person",
-            "items": {
-              "$id": "#/properties/keyPeople/items/properties/aliases/items",
+      },
+      "keyPeople": {
+        "$id": "#/items/properties/keyPeople",
+        "type": "array",
+        "title": "Key People",
+        "description": "A collection of Key People related to the Entity",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/keyPeople/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "dateTimeAddedToKG",
+            "dateTimeUpdatedInKG",
+            "name",
+            "position"
+          ],
+          "properties": {
+            "uid": {
+              "$id": "#/items/properties/keyPeople/items/properties/uid",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "UID",
+              "description": "A unique identifier for the Person",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "dateTimeAddedToKG": {
+              "$id": "#/items/properties/keyPeople/items/properties/DateTimeAddedToKG",
+              "type": "string",
+              "description": "The DateTime the Person was added to the KnowledgeGraph",
               "default": "",
               "examples": [
-                "David I. Goulden",
+                "2019-08-14T17:28:12.687000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "aliases": {
+              "$id": "#/items/properties/keyPeople/items/properties/aliases",
+              "type": "array",
+              "title": "Aliases",
+              "description": "Alternative names for the Person",
+              "items": {
+                "$id": "#/items/properties/keyPeople/items/properties/aliases/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "David I. Goulden",
+                  "David Goulden"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "relationEndDate": {
+              "$id": "#/items/properties/keyPeople/items/properties/relationEndDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the End Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationEndDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
+                  "examples": [
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationEndDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
+                  ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationEndDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/keyPeople/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2018,
+                      3,
+                      -1
+                    ]
+                  }
+                }
+              }
+            },
+            "dateTimeUpdatedInKG": {
+              "$id": "#/items/properties/keyPeople/items/properties/dateTimeUpdatedInKG",
+              "type": "string",
+              "title": "DateTime Updated in KG",
+              "description": "The DateTime the KeyPerson was updated in the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:26:25.919000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/items/properties/keyPeople/items/properties/name",
+              "type": "string",
+              "title": "Name",
+              "description": "The name of the Person",
+              "default": "",
+              "examples": [
                 "David Goulden"
               ],
               "pattern": "^(.*)$"
-            }
-          },
-          "relationEndDate": {
-            "$id": "#/properties/keyPeople/items/properties/relationEndDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the End Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/keyPeople/items/properties/relationEndDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/keyPeople/items/properties/relationEndDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/keyPeople/items/properties/relationEndDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/keyPeople/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+            },
+            "relationStartDate": {
+              "$id": "#/items/properties/keyPeople/items/properties/relationStartDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the Start Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationStartDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
                   "examples": [
-                    2018,
-                    3,
-                    -1
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationStartDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
                   ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/keyPeople/items/properties/relationStartDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/keyPeople/items/properties/relationStartDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2018,
+                      3,
+                      -1
+                    ]
+                  }
                 }
               }
+            },
+            "position": {
+              "$id": "#/items/properties/keyPeople/items/properties/position",
+              "type": "string",
+              "title": "Position",
+              "description": "The position held by the Person",
+              "default": "",
+              "examples": [
+                "Chief Financial Officer"
+              ],
+              "pattern": "^(.*)$"
             }
-          },
-          "dateTimeUpdatedInKG": {
-            "$id": "#/properties/keyPeople/items/properties/dateTimeUpdatedInKG",
-            "type": "string",
-            "title": "DateTime Updated in KG",
-            "description": "The DateTime the KeyPerson was updated in the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:26:25.919000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "name": {
-            "$id": "#/properties/keyPeople/items/properties/name",
-            "type": "string",
-            "title": "Name",
-            "description": "The name of the Person",
-            "default": "",
-            "examples": [
-              "David Goulden"
-            ],
-            "pattern": "^(.*)$"
-          },
-          "relationStartDate": {
-            "$id": "#/properties/keyPeople/items/properties/relationStartDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the Start Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/keyPeople/items/properties/relationStartDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/keyPeople/items/properties/relationStartDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/keyPeople/items/properties/relationStartDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/keyPeople/items/properties/relationStartDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
-                  "examples": [
-                    2018,
-                    3,
-                    -1
-                  ]
-                }
-              }
-            }
-          },
-          "position": {
-            "$id": "#/properties/keyPeople/items/properties/position",
-            "type": "string",
-            "title": "Position",
-            "description": "The position held by the Person",
-            "default": "",
-            "examples": [
-              "Chief Financial Officer"
-            ],
-            "pattern": "^(.*)$"
           }
         }
-      }
-    },
-    "subsidiaries": {
-      "$id": "#/properties/subsidiaries",
-      "type": "array",
-      "title": "Subsidiaries",
-      "description": "A collection of Subsidiaries related to the Entity",
-      "default": null,
-      "items": {
-        "$id": "#/properties/subsidiaries/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "dateTimeAddedToKG",
-          "dateTimeUpdatedInKG",
-          "name"
-        ],
-        "properties": {
-          "uid": {
-            "$id": "#/properties/subsidiaries/items/properties/uid",
-            "type": "string",
-            "title": "UID",
-            "description": "A unique identifier for the Subsidiary",
-            "default": null,
-            "examples": [
-              null
-            ],
-            "pattern": "^(.*)$"
-          },
-          "dateTimeAddedToKG": {
-            "$id": "#/properties/subsidiaries/items/properties/DateTimeAddedToKG",
-            "type": "string",
-            "title": "DateTime Added to KG",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:22:50.055000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "aliases": {
-            "$id": "#/properties/subsidiaries/items/properties/aliases",
-            "type": "array",
-            "title": "Aliases",
-            "description": "Alternative names for the Subsidiary",
-            "items": {
-              "$id": "#/properties/subsidiaries/items/properties/aliases/items",
+      },
+      "subsidiaries": {
+        "$id": "#/items/properties/subsidiaries",
+        "type": "array",
+        "title": "Subsidiaries",
+        "description": "A collection of Subsidiaries related to the Entity",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/subsidiaries/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "dateTimeAddedToKG",
+            "dateTimeUpdatedInKG",
+            "name"
+          ],
+          "properties": {
+            "uid": {
+              "$id": "#/items/properties/subsidiaries/items/properties/uid",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "UID",
+              "description": "A unique identifier for the Subsidiary",
+              "default": null,
+              "examples": [
+                null
+              ],
+              "pattern": "^(.*)$"
+            },
+            "dateTimeAddedToKG": {
+              "$id": "#/items/properties/subsidiaries/items/properties/DateTimeAddedToKG",
+              "type": "string",
+              "title": "DateTime Added to KG",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:22:50.055000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "aliases": {
+              "$id": "#/items/properties/subsidiaries/items/properties/aliases",
+              "type": "array",
+              "title": "Aliases",
+              "description": "Alternative names for the Subsidiary",
+              "items": {
+                "$id": "#/items/properties/subsidiaries/items/properties/aliases/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "TenMarks Education Inc"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "relationEndDate": {
+              "$id": "#/items/properties/subsidiaries/items/properties/relationEndDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the End Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationEndDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
+                  "examples": [
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationEndDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
+                  ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2019,
+                      6,
+                      30
+                    ]
+                  }
+                }
+              }
+            },
+            "dateTimeUpdatedInKG": {
+              "$id": "#/items/properties/subsidiaries/items/properties/dateTimeUpdatedInKG",
+              "type": "string",
+              "title": "DateTime Updated in KG",
+              "description": "The DateTime the Subsidiary was updated in the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:22:50.385000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/items/properties/subsidiaries/items/properties/name",
+              "type": "string",
+              "title": "Name",
+              "description": "The name of the Subsidiary",
               "default": "",
               "examples": [
                 "TenMarks Education Inc"
               ],
               "pattern": "^(.*)$"
-            }
-          },
-          "relationEndDate": {
-            "$id": "#/properties/subsidiaries/items/properties/relationEndDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the End Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/subsidiaries/items/properties/relationEndDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/subsidiaries/items/properties/relationEndDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/subsidiaries/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+            },
+            "relationStartDate": {
+              "$id": "#/items/properties/subsidiaries/items/properties/relationStartDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the Start Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationStartDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
                   "examples": [
-                    2019,
-                    6,
-                    30
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationStartDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
                   ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2013,
+                      10,
+                      1
+                    ]
+                  }
                 }
               }
+            },
+            "isin": {
+              "$id": "#/items/properties/subsidiaries/items/properties/isin",
+              "type": "null",
+              "title": "ISIN",
+              "description": "The International Securities Identification Number of the Subsidiary",
+              "default": null,
+              "examples": [
+                null
+              ]
             }
-          },
-          "dateTimeUpdatedInKG": {
-            "$id": "#/properties/subsidiaries/items/properties/dateTimeUpdatedInKG",
-            "type": "string",
-            "title": "DateTime Updated in KG",
-            "description": "The DateTime the Subsidiary was updated in the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:22:50.385000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "name": {
-            "$id": "#/properties/subsidiaries/items/properties/name",
-            "type": "string",
-            "title": "Name",
-            "description": "The name of the Subsidiary",
-            "default": "",
-            "examples": [
-              "TenMarks Education Inc"
-            ],
-            "pattern": "^(.*)$"
-          },
-          "relationStartDate": {
-            "$id": "#/properties/subsidiaries/items/properties/relationStartDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the Start Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/subsidiaries/items/properties/relationStartDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/subsidiaries/items/properties/relationStartDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/subsidiaries/items/properties/relationStartDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
-                  "examples": [
-                    2013,
-                    10,
-                    1
-                  ]
-                }
-              }
-            }
-          },
-          "isin": {
-            "$id": "#/properties/subsidiaries/items/properties/isin",
-            "type": "null",
-            "title": "ISIN",
-            "description": "The International Securities Identification Number of the Subsidiary",
-            "default": null,
-            "examples": [
-              null
-            ]
           }
         }
-      }
-    },
-    "divisions": {
-      "$id": "#/properties/divisions",
-      "type": "array",
-      "title": "The Divisions Schema",
-      "items": {
-        "$id": "#/properties/divisions/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "dateTimeAddedToKG",
-          "dateTimeUpdatedInKG",
-          "name"
-        ],
-        "properties": {
-          "uid": {
-            "$id": "#/properties/divisions/items/properties/uid",
-            "type": "string",
-            "title": "UID",
-            "description": "A unique identifier for the Division",
-            "default": null,
-            "examples": [
-              null
-            ],
-            "pattern": "^(.*)$"
-          },
-          "dateTimeAddedToKG": {
-            "$id": "#/properties/divisions/items/properties/DateTimeAddedToKG",
-            "type": "string",
-            "title": "DateTime Added to KG",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:19:59.717000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "aliases": {
-            "$id": "#/properties/divisions/items/properties/aliases",
-            "type": "array",
-            "title": "Aliases",
-            "description": "Alternative names for the Division",
-            "items": {
-              "$id": "#/properties/divisions/items/properties/aliases/items",
+      },
+      "divisions": {
+        "$id": "#/items/properties/divisions",
+        "type": "array",
+        "title": "The Divisions Schema",
+        "items": {
+          "$id": "#/items/properties/divisions/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "dateTimeAddedToKG",
+            "dateTimeUpdatedInKG",
+            "name"
+          ],
+          "properties": {
+            "uid": {
+              "$id": "#/items/properties/divisions/items/properties/uid",
               "type": "string",
-              "title": "The Items Schema",
+              "title": "UID",
+              "description": "A unique identifier for the Division",
+              "default": null,
+              "examples": [
+                null
+              ],
+              "pattern": "^(.*)$"
+            },
+            "dateTimeAddedToKG": {
+              "$id": "#/items/properties/divisions/items/properties/DateTimeAddedToKG",
+              "type": "string",
+              "title": "DateTime Added to KG",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:19:59.717000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "aliases": {
+              "$id": "#/items/properties/divisions/items/properties/aliases",
+              "type": "array",
+              "title": "Aliases",
+              "description": "Alternative names for the Division",
+              "items": {
+                "$id": "#/items/properties/divisions/items/properties/aliases/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Amazon Game Studios"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "relationEndDate": {
+              "$id": "#/items/properties/divisions/items/properties/relationEndDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the End Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/divisions/items/properties/relationEndDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
+                  "examples": [
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/divisions/items/properties/relationEndDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
+                  ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/divisions/items/properties/relationEndDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/divisions/items/properties/relationEndDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2012,
+                      8,
+                      7
+                    ]
+                  }
+                }
+              }
+            },
+            "dateTimeUpdatedInKG": {
+              "$id": "#/items/properties/divisions/items/properties/dateTimeUpdatedInKG",
+              "type": "string",
+              "title": "DateTime Updated in KG",
+              "description": "The DateTime the Division was updated in the KnowledgeGraph",
+              "default": "",
+              "examples": [
+                "2019-08-14T17:19:59.749000000Z"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/items/properties/divisions/items/properties/name",
+              "type": "string",
+              "title": "Name",
+              "description": "The name of the Division",
               "default": "",
               "examples": [
                 "Amazon Game Studios"
               ],
               "pattern": "^(.*)$"
-            }
-          },
-          "relationEndDate": {
-            "$id": "#/properties/divisions/items/properties/relationEndDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the End Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/divisions/items/properties/relationEndDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/divisions/items/properties/relationEndDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/divisions/items/properties/relationEndDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the end date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/divisions/items/properties/relationEndDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
+            },
+            "relationStartDate": {
+              "$id": "#/items/properties/divisions/items/properties/relationStartDate",
+              "type": "object",
+              "title": "A Relational Date object containing constructs of the Start Date",
+              "required": [
+                "date",
+                "isAssumed",
+                "dateParts"
+              ],
+              "properties": {
+                "date": {
+                  "$id": "#/items/properties/divisions/items/properties/relationStartDate/properties/date",
+                  "type": "string",
+                  "title": "Date",
+                  "description": "The fully qualified date of the relationship with it’s parent",
+                  "default": "",
                   "examples": [
-                    2012,
-                    8,
-                    7
+                    "1998-07-02"
+                  ],
+                  "pattern": "^(.*)$",
+                  "format": "date"
+                },
+                "isAssumed": {
+                  "$id": "#/items/properties/divisions/items/properties/relationStartDate/properties/isAssumed",
+                  "type": "boolean",
+                  "title": "Is Assumed",
+                  "description": "Whether the Date is assumed and not from a complete date.",
+                  "default": false,
+                  "examples": [
+                    true, false
                   ]
+                },
+                "dateParts": {
+                  "$id": "#/items/properties/divisions/items/properties/relationStartDate/properties/dateParts",
+                  "type": "array",
+                  "title": "Date Parts",
+                  "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
+                  "items": {
+                    "$id": "#/items/properties/divisions/items/properties/relationStartDate/properties/dateParts/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      2012,
+                      8,
+                      7
+                    ]
+                  }
                 }
               }
+            },
+            "isin": {
+              "$id": "#/items/properties/divisions/items/properties/isin",
+              "type": "null",
+              "title": "ISIN",
+              "description": "The International Securities Identification Number of the Division",
+              "default": null,
+              "examples": [
+                null
+              ]
             }
-          },
-          "dateTimeUpdatedInKG": {
-            "$id": "#/properties/divisions/items/properties/dateTimeUpdatedInKG",
-            "type": "string",
-            "title": "DateTime Updated in KG",
-            "description": "The DateTime the Division was updated in the KnowledgeGraph",
-            "default": "",
-            "examples": [
-              "2019-08-14T17:19:59.749000000Z"
-            ],
-            "pattern": "^(.*)$",
-            "format": "date-time"
-          },
-          "name": {
-            "$id": "#/properties/divisions/items/properties/name",
-            "type": "string",
-            "title": "Name",
-            "description": "The name of the Division",
-            "default": "",
-            "examples": [
-              "Amazon Game Studios"
-            ],
-            "pattern": "^(.*)$"
-          },
-          "relationStartDate": {
-            "$id": "#/properties/divisions/items/properties/relationStartDate",
-            "type": "object",
-            "title": "A Relational Date object containing constructs of the Start Date",
-            "required": [
-              "date",
-              "isAssumed",
-              "dateParts"
-            ],
-            "properties": {
-              "date": {
-                "$id": "#/properties/divisions/items/properties/relationStartDate/properties/date",
-                "type": "string",
-                "title": "Date",
-                "description": "The fully qualified date of the relationship with it’s parent",
-                "default": "",
-                "examples": [
-                  "1998-07-02"
-                ],
-                "pattern": "^(.*)$",
-                "format": "date"
-              },
-              "isAssumed": {
-                "$id": "#/properties/divisions/items/properties/relationStartDate/properties/isAssumed",
-                "type": "boolean",
-                "title": "Is Assumed",
-                "description": "Whether the Date is assumed and not from a complete date.",
-                "default": false,
-                "examples": [
-                  true, false
-                ]
-              },
-              "dateParts": {
-                "$id": "#/properties/divisions/items/properties/relationStartDate/properties/dateParts",
-                "type": "array",
-                "title": "Date Parts",
-                "description": "An array of the start date parts, in the order of [year, month, day]. If a date part value is -1, then it is not available.",
-                "items": {
-                  "$id": "#/properties/divisions/items/properties/relationStartDate/properties/dateParts/items",
-                  "type": "integer",
-                  "title": "The Items Schema",
-                  "default": 0,
-                  "examples": [
-                    2012,
-                    8,
-                    7
-                  ]
-                }
-              }
-            }
-          },
-          "isin": {
-            "$id": "#/properties/divisions/items/properties/isin",
-            "type": "null",
-            "title": "ISIN",
-            "description": "The International Securities Identification Number of the Division",
-            "default": null,
-            "examples": [
-              null
-            ]
           }
         }
-      }
-    },
-    "timeZone": {
-      "$id": "#/properties/timeZone",
-      "type": "string",
-      "title": "TimeZone",
-      "description": "The TimeZone name of the Entity (default traded instrument)",
-      "default": null,
-      "examples": [
-        "Eastern Standard Time"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "exchange": {
-      "$id": "#/properties/exchange",
-      "type": "string",
-      "title": "Exchange",
-      "description": "The Exchange name of the Entity (default traded instrument)",
-      "default": null,
-      "examples": [
-        "NASDAQ"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "marketIndex": {
-      "$id": "#/properties/marketIndex",
-      "type": "string",
-      "title": "Market Index",
-      "description": "The Market Index name of the Entity (default traded instrument)",
-      "default": null,
-      "examples": [
-        "NASDAQ 100"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "localTimeOpens": {
-      "$id": "#/properties/localTimeOpens",
-      "type": "string",
-      "title": "Local Time Opens",
-      "description": "The local open time of trading of the default exchange",
-      "default": "",
-      "examples": [
-        "09:30:00"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "localTimeCloses": {
-      "$id": "#/properties/localTimeCloses",
-      "type": "string",
-      "title": "Local Time Closes",
-      "description": "The local close time of trading of the default exchange",
-      "default": "",
-      "examples": [
-        "16:30:00"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "aliases": {
-      "$id": "#/properties/aliases",
-      "type": "array",
-      "title": "Aliases",
-      "description": "Alternative names for the Entity",
-      "items": {
-        "$id": "#/properties/aliases/items",
+      },
+      "timeZone": {
+        "$id": "#/items/properties/timeZone",
         "type": "string",
-        "title": "The Items Schema",
+        "title": "TimeZone",
+        "description": "The TimeZone name of the Entity (default traded instrument)",
+        "default": null,
+        "examples": [
+          "Eastern Standard Time"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "exchange": {
+        "$id": "#/items/properties/exchange",
+        "type": "string",
+        "title": "Exchange",
+        "description": "The Exchange name of the Entity (default traded instrument)",
+        "default": null,
+        "examples": [
+          "NASDAQ"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "marketIndex": {
+        "$id": "#/items/properties/marketIndex",
+        "type": "string",
+        "title": "Market Index",
+        "description": "The Market Index name of the Entity (default traded instrument)",
+        "default": null,
+        "examples": [
+          "NASDAQ 100"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "localTimeOpens": {
+        "$id": "#/items/properties/localTimeOpens",
+        "type": "string",
+        "title": "Local Time Opens",
+        "description": "The local open time of trading of the default exchange",
         "default": "",
         "examples": [
-          "Amazon Inc",
-          "Amazon.com Inc",
-          "Amazon",
-          "Amazon.com"
+          "09:30:00"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "localTimeCloses": {
+        "$id": "#/items/properties/localTimeCloses",
+        "type": "string",
+        "title": "Local Time Closes",
+        "description": "The local close time of trading of the default exchange",
+        "default": "",
+        "examples": [
+          "16:30:00"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "aliases": {
+        "$id": "#/items/properties/aliases",
+        "type": "array",
+        "title": "Aliases",
+        "description": "Alternative names for the Entity",
+        "items": {
+          "$id": "#/items/properties/aliases/items",
+          "type": "string",
+          "title": "The Items Schema",
+          "default": "",
+          "examples": [
+            "Amazon Inc",
+            "Amazon.com Inc",
+            "Amazon",
+            "Amazon.com"
+          ],
+          "pattern": "^(.*)$"
+        }
+      },
+      "symbol": {
+        "$id": "#/items/properties/symbol",
+        "type": "string",
+        "title": "The default traded instrument symbol",
+        "default": null,
+        "examples": [
+          "AMZN"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "uid": {
+        "$id": "#/items/properties/uid",
+        "type": "string",
+        "title": "UID",
+        "description": "A unique identifier for the Entity",
+        "default": null,
+        "examples": [
+          "EQT-A438AE"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "dateTimeAddedToKG": {
+        "$id": "#/items/properties/DateTimeAddedToKG",
+        "type": "string",
+        "title": "DateTime Added to KG",
+        "default": "",
+        "examples": [
+          "2019-08-14T17:17:08.133000000Z"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "dateTimeUpdatedInKG": {
+        "$id": "#/items/properties/dateTimeUpdatedInKG",
+        "type": "string",
+        "title": "DateTime Updated in KG",
+        "description": "The DateTime the Entity was updated in the KnowledgeGraph",
+        "default": "",
+        "examples": [
+          "2019-08-14T17:48:07.971000000Z"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "Name",
+        "description": "The name of the Entity",
+        "default": "",
+        "examples": [
+          "Amazon.com Inc"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "description": {
+        "$id": "#/items/properties/description",
+        "type": "string",
+        "title": "Description",
+        "description": "A description/overview of the Entity",
+        "default": "",
+        "examples": [
+          "\"Amazon.com, Inc., doing business as Amazon (/?�m??z?n/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics�Kindle e-readers, Fire tablets, Fire TV, and Echo�and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.Amazon has separate retail websites for the United States, the United Kingdom and Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India, and Mexico. In 2016, Dutch, Polish, and Turkish language versions of the German Amazon website were also launched.[5][6][7] Amazon also offers international shipping of some of its products to certain other countries.[8] In 2015, Amazon surpassed Walmart as the most valuable retailer in the United States by market capitalization.[9] Amazon is the fourth most valuable public company in the world, the largest Internet company by revenue in the world, and the eighth largest employer in the United States.[10] In 2017, Amazon acquired Whole Foods Market for $13.4 billion, which vastly increased Amazon's presence as a brick-and-mortar retailer.[11] The acquisition was interpreted by some as a direct attempt to challenge Walmart's traditional retail stores.[12] \""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "subSector": {
+        "$id": "#/items/properties/subSector",
+        "type": "string",
+        "title": "Sub-sector",
+        "description": "The name of the Sub-sector the Entity is in",
+        "default": "",
+        "examples": [
+          "Internet & Direct Marketing Retail"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "type": {
+        "$id": "#/items/properties/type",
+        "type": "string",
+        "title": "Type",
+        "default": "The type of Entity",
+        "examples": [
+          "Company", "Commodity"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "sector": {
+        "$id": "#/items/properties/sector",
+        "type": "string",
+        "title": "Sector",
+        "description": "The name of the Sector the Entity is in",
+        "default": "",
+        "examples": [
+          "Consumer Discretionary"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "isin": {
+        "$id": "#/items/properties/isin",
+        "type": "string",
+        "title": "ISIN",
+        "description": "The International Securities Identification Number of the Entity",
+        "default": "",
+        "examples": [
+          "US0231351067"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "wikiUrl": {
+        "$id": "#/items/properties/wikiUrl",
+        "type": "string",
+        "title":  "Wiki Url",
+        "description": "A public link to the Wikipedia page of the Entity",
+        "default": "",
+        "examples": [
+          "https://en.wikipedia.org/wiki/Amazon.com"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "address": {
+        "$id": "#/items/properties/address",
+        "type": "string",
+        "title": "Address",
+        "description":"The address of the Entity headquarters",
+        "default": "",
+        "examples": [
+          "410 Terry Avenue North Seattle, WA 98109-5210 United States"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "logoLink": {
+        "$id": "#/items/properties/logoLink",
+        "type": "string",
+        "title":"Logo Link",
+        "description": "A public link to an image of the Entity logo",
+        "default": "",
+        "examples": [
+          "https://en.wikipedia.org/wiki/File:Amazon_logo_plain.svg"
         ],
         "pattern": "^(.*)$"
       }
-    },
-    "symbol": {
-      "$id": "#/properties/symbol",
-      "type": "string",
-      "title": "The default traded instrument symbol",
-      "default": null,
-      "examples": [
-        "AMZN"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "uid": {
-      "$id": "#/properties/uid",
-      "type": "string",
-      "title": "UID",
-      "description": "A unique identifier for the Entity",
-      "default": "",
-      "examples": [
-        "EQT-A438AE"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "dateTimeAddedToKG": {
-      "$id": "#/properties/DateTimeAddedToKG",
-      "type": "string",
-      "title": "DateTime Added to KG",
-      "default": "",
-      "examples": [
-        "2019-08-14T17:17:08.133000000Z"
-      ],
-      "pattern": "^(.*)$",
-      "format": "date-time"
-    },
-    "dateTimeUpdatedInKG": {
-      "$id": "#/properties/dateTimeUpdatedInKG",
-      "type": "string",
-      "title": "DateTime Updated in KG",
-      "description": "The DateTime the Entity was updated in the KnowledgeGraph",
-      "default": "",
-      "examples": [
-        "2019-08-14T17:48:07.971000000Z"
-      ],
-      "pattern": "^(.*)$",
-      "format": "date-time"
-    },
-    "name": {
-      "$id": "#/properties/name",
-      "type": "string",
-      "title": "Name",
-      "description": "The name of the Entity",
-      "default": "",
-      "examples": [
-        "Amazon.com Inc"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "description": {
-      "$id": "#/properties/description",
-      "type": "string",
-      "title": "Description",
-      "description": "A description/overview of the Entity",
-      "default": "",
-      "examples": [
-        "\"Amazon.com, Inc., doing business as Amazon (/?�m??z?n/), is an American electronic commerce and cloud computing company based in Seattle, Washington that was founded by Jeff Bezos on July 5, 1994. The tech giant is the largest Internet retailer in the world as measured by revenue and market capitalization, and second largest after Alibaba Group in terms of total sales.[3] The amazon.com website started as an online bookstore and later diversified to sell video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics�Kindle e-readers, Fire tablets, Fire TV, and Echo�and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[4] Amazon also sells certain low-end products under its in-house brand AmazonBasics.Amazon has separate retail websites for the United States, the United Kingdom and Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India, and Mexico. In 2016, Dutch, Polish, and Turkish language versions of the German Amazon website were also launched.[5][6][7] Amazon also offers international shipping of some of its products to certain other countries.[8] In 2015, Amazon surpassed Walmart as the most valuable retailer in the United States by market capitalization.[9] Amazon is the fourth most valuable public company in the world, the largest Internet company by revenue in the world, and the eighth largest employer in the United States.[10] In 2017, Amazon acquired Whole Foods Market for $13.4 billion, which vastly increased Amazon's presence as a brick-and-mortar retailer.[11] The acquisition was interpreted by some as a direct attempt to challenge Walmart's traditional retail stores.[12] \""
-      ],
-      "pattern": "^(.*)$"
-    },
-    "subSector": {
-      "$id": "#/properties/subSector",
-      "type": "string",
-      "title": "Sub-sector",
-      "description": "The name of the Sub-sector the Entity is in",
-      "default": "",
-      "examples": [
-        "Internet & Direct Marketing Retail"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "type": {
-      "$id": "#/properties/type",
-      "type": "string",
-      "title": "Type",
-      "default": "The type of Entity",
-      "examples": [
-        "Company", "Commodity"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "sector": {
-      "$id": "#/properties/sector",
-      "type": "string",
-      "title": "Sector",
-      "description": "The name of the Sector the Entity is in",
-      "default": "",
-      "examples": [
-        "Consumer Discretionary"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "isin": {
-      "$id": "#/properties/isin",
-      "type": "string",
-      "title": "ISIN",
-      "description": "The International Securities Identification Number of the Entity",
-      "default": "",
-      "examples": [
-        "US0231351067"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "wikiUrl": {
-      "$id": "#/properties/wikiUrl",
-      "type": "string",
-      "title":  "Wiki Url",
-      "description": "A public link to the Wikipedia page of the Entity",
-      "default": "",
-      "examples": [
-        "https://en.wikipedia.org/wiki/Amazon.com"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "address": {
-      "$id": "#/properties/address",
-      "type": "string",
-      "title": "Address",
-      "description":"The address of the Entity headquarters",
-      "default": "",
-      "examples": [
-        "410 Terry Avenue North Seattle, WA 98109-5210 United States"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "logoLink": {
-      "$id": "#/properties/logoLink",
-      "type": "string",
-      "title":"Logo Link",
-      "description": "A public link to an image of the Entity logo",
-      "default": "",
-      "examples": [
-        "https://en.wikipedia.org/wiki/File:Amazon_logo_plain.svg"
-      ],
-      "pattern": "^(.*)$"
     }
   }
 }
